@@ -1,0 +1,18 @@
+---
+order: 1
+---
+
+# Таблица IP адресов нод
+
+| Нода | Процессор | IP | Поддомен | 
+|---|---|---|---|
+| Free | Intel Xeon E5-1650 v3 | `212.80.7.230` | `f1.play2go.cloud` |
+| Client 1 | Intel Core I9-9900K | `212.80.7.200` | `c1.play2go.cloud` |
+| Client 2 | Intel Core I9-9900K | `212.80.7.202` | `c2.play2go.cloud` |
+| Client 3 | Intel Core I9-9900K | `212.80.7.203` | `c3.play2go.cloud` |
+| Client 4 | Intel Core I9-9900K | `212.80.7.204` | `c4.play2go.cloud` |
+| Client 5 | Intel Core I9-9900K | `212.80.7.205` | `c5.play2go.cloud` |
+| Client 6 | Intel Core I9-12900K | `212.80.7.206` | `c6.play2go.cloud` |
+| Client 7 | Intel Core I9-12900K | `212.80.7.207` | `c7.play2go.cloud` |
+| Client 8 | AMD Ryzen 9 3900 | `212.80.7.208` | `c8.play2go.cloud` |
+| Client 9 | Intel Core I9-12900K | `212.80.7.209` | `c9.play2go.cloud` |

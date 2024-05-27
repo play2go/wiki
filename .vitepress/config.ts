@@ -1,0 +1,127 @@
+import { defineConfig } from "vitepress";
+import UnoCSS from "unocss/vite";
+import { generateSidebar } from "vitepress-sidebar";
+import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
+
+function generateSidebarEntry(path: string, title: string) {
+  return {
+    documentRootPath: "src",
+    scanStartPath: path,
+    resolvePath: `/${path}/`,
+    useTitleFromFileHeading: true,
+    useFolderTitleFromIndexFile: true,
+    collapsed: true,
+    rootGroupText: title,
+    rootGroupLink: "/",
+    sortMenusByFrontmatterOrder: true,
+  };
+}
+
+const sidebar = generateSidebar(
+  [
+    { path: "host", title: "Хостинг" },
+    { path: "minecraft", title: "Minecraft" },
+  ].map((entry) => generateSidebarEntry(entry.path, entry.title))
+);
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
+  vite: {
+    optimizeDeps: {
+      exclude: ["vitepress"],
+    },
+    plugins: [UnoCSS()],
+  },
+  markdown: {
+    config(md) {
+      md.use(tabsMarkdownPlugin);
+    },
+  },
+
+  head: [["link", { rel: "icon", href: "/assets/p2g-wiki-logo.svg" }]],
+
+  lang: "ru-RU",
+  title: "База знаний play2go",
+  description:
+    "Вики с большим количеством полезной информации для пользователей Play2GO.cloud",
+
+  srcDir: "src",
+  cleanUrls: true,
+  lastUpdated: true,
+  sitemap: {
+    hostname: "https://wiki.play2go.cloud",
+  },
+
+  themeConfig: {
+    notFound: {
+      code: "Ошибка 404",
+      title: "Страница не найдена",
+      quote: "",
+      linkText: "На Главную",
+    },
+
+    search: {
+      provider: "local",
+      options: {
+        translations: {
+          button: {
+            buttonText: "Поиск",
+            buttonAriaLabel: "Поиск страницы",
+          },
+          modal: {
+            noResultsText: "Результатов не найдено по запросу",
+            resetButtonTitle: "Очистить",
+            footer: {
+              selectText: "- выбрать",
+              navigateText: "- переключение между результатами",
+              closeText: "- закрыть",
+            },
+          },
+        },
+      },
+    },
+
+    sidebarMenuLabel: "Меню",
+    darkModeSwitchLabel: "Режим",
+    returnToTopLabel: "Наверх",
+    docFooter: {
+      prev: "Предыдущая страница",
+      next: "Следующая страница",
+    },
+    outline: {
+      label: "Содержание",
+      level: [2, 3],
+    },
+
+    editLink: {
+      pattern: "https://github.com/play2go/wiki/edit/main/src/:path",
+      text: "Редактировать на GitHub",
+    },
+
+    lastUpdated: {
+      text: "Обновлено",
+      formatOptions: {
+        dateStyle: "full",
+        timeStyle: "medium",
+      },
+    },
+
+    logo: {
+      dark: "/assets/p2g-wiki-logo.svg",
+      light: "/assets/light/p2g-wiki-logo.svg",
+    },
+    // https://vitepress.dev/reference/default-theme-config
+    nav: [
+      { text: "Главная", link: "/" },
+      { text: "Хостинг", link: "/host/", activeMatch: "host/*" },
+      { text: "Minecraft", link: "/minecraft/", activeMatch: "minecraft/*" },
+    ],
+
+    sidebar,
+
+    socialLinks: [
+      { icon: "discord", link: "https://discord.gg/play2go" },
+      { icon: "github", link: "https://githum.com/play2go" },
+    ],
+  },
+});
