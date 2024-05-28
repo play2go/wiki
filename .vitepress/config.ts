@@ -121,7 +121,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: "discord", link: "https://discord.gg/play2go" },
-      { icon: "github", link: "https://githum.com/play2go" },
+      { icon: "github", link: "https://github.com/play2go" },
     ],
   },
 });
