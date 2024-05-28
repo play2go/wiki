@@ -22,7 +22,7 @@ order: 5
 - TCP/UDP/WebSocket/Socket.io сервера
 - Программы, которые требуют работы 24/7
 
-\n
+<br>
 
 ::: warning :warning: Предупреждение
 Запрещено майнить, DoSить и каким либо образом нарушать наше [Пользовательское соглашение](https://play2go.cloud/user-agreement).
