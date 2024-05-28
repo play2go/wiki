@@ -6,7 +6,7 @@ order: 5
 
 Такие тарифы позволяют запускать вам различные проекты с использованием панели управления Pterodactyl.
 
-### Доступные языки программирования
+## Доступные языки программирования
 
 - Python
 - JavaScript/TypeScript (Node.js)
@@ -15,14 +15,14 @@ order: 5
 - Deno
 - Java
 
-### Примеры проектов, которые можно запустить
+## Примеры проектов, которые можно запустить
 
 - Backend для сайта
 - Discord/Telegram/VK боты
 - TCP/UDP/WebSocket/Socket.io сервера
 - Программы, которые требуют работы 24/7
 
-<br>
+\n
 
 ::: warning :warning: Предупреждение
 Запрещено майнить, DoSить и каким либо образом нарушать наше [Пользовательское соглашение](https://play2go.cloud/user-agreement).
@@ -38,13 +38,13 @@ order: 5
 print("Started")
 ```
 
-<hr>
+---
 
 ```javascript
 console.log("Started")
 ```
 
-<hr>
+---
 
 ```java
 System.out.println("Started")
