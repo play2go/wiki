@@ -7,6 +7,7 @@ order: 5
 Такие тарифы позволяют запускать вам различные проекты с использованием панели управления Pterodactyl.
 
 ### Доступные языки программирования
+
 - Python
 - JavaScript/TypeScript (Node.js)
 - Dart
@@ -15,6 +16,7 @@ order: 5
 - Java
 
 ### Примеры проектов, которые можно запустить
+
 - Backend для сайта
 - Discord/Telegram/VK боты
 - TCP/UDP/WebSocket/Socket.io сервера
@@ -31,17 +33,21 @@ order: 5
 Чтобы сервер в панели управления пометился как запущенный, выведите в консоль `Started`.
 
 Примеры на различных ЯП:
+
 ```python
 print("Started")
 ```
+
 <hr>
 
 ```javascript
 console.log("Started")
 ```
+
 <hr>
 
 ```java
 System.out.println("Started")
 ```
+
 :::
