@@ -24,7 +24,7 @@ NeoProtect - прокси сервис, аналогичный TCPShield, защ
 
 Для начала, нужно зайти на сайт [neoprotect.net](https://neoprotect.net/) и зарегистрироваться
 
-![Image 1](/assets/neo.png)
+![Image 1](./assets/neo.png)
 
 ## Шаг 2
 
@@ -35,4 +35,4 @@ NeoProtect - прокси сервис, аналогичный TCPShield, защ
 
 Добавляем CNAME запись в DNS. Можно скопировать во вкладке Domains в настройках сети.
 
-![Image 2](/assets/neo2.png)
+![Image 2](./assets/neo2.png)
