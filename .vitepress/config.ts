@@ -58,7 +58,7 @@ export default defineConfig({
       message:
         'Выпущено под <a href="https://github.com/play2go/wiki/blob/main/LICENSE.md">лицензией CC BY-NC-SA 4.0</a>.',
       copyright:
-        "Copyright © 2024 - " +
+        "Copyright © 2023 - " +
         new Date().getFullYear() +
         '. <a href="https://play2go.cloud">PLAY2GO LTD</a>',
     },
