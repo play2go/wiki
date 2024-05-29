@@ -4,7 +4,7 @@ order: 5
 
 # Привязка домена к серверу
 
-![SRV Record](./assets/srvrecorddomain.png)
+![SRV Record](/minecraft/domain/srvrecorddomain.png)
 
 Создайте SRV запись в настройках домена.
 

@@ -6,7 +6,7 @@ authors:
 
 # EasyDonate RCON
 
-Инструкция о том, как подключить EasyDonate через RCON. Понадобится для Fabric, NeoForge серверов.
+Инструкция о том, как подключить EasyDonate через RCON. Понадобится для модовых серверов.
 
 ## Подключение к EasyDonate
 
