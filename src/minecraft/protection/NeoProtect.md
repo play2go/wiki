@@ -36,5 +36,3 @@ NeoProtect - прокси сервис, аналогичный TCPShield, защ
 Добавляем CNAME запись в DNS. Можно скопировать во вкладке Domains в настройках сети.
 
 ![Image 2](/assets/neo2.png)
-
-:::
