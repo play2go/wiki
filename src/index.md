@@ -14,6 +14,9 @@ hero:
     dark: '/assets/p2g-wiki-logo.svg'
     light: '/assets/light/p2g-wiki-logo.svg'
   actions:
+    - theme: brand icon book
+      text: Приступить
+      link: host
     - theme: brand icon main-site
       text: Основной сайт
       link: https://play2go.cloud

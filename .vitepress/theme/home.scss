@@ -71,6 +71,11 @@ a.telegram::before {
   transform: translate(0, 28%);
 }
 
+a.book::before {
+  background-image: url('/assets/book-open.svg');
+  transform: scale(0.9, 0.9) translate(0, 30%);
+}
+
 .dark {
   a.ptero::before {
     background-image: url('/assets/pterodactyl-logo.svg');
