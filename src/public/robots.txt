@@ -1,0 +1,2 @@
+Sitemap: http://wiki.play2go.cloud/sitemap.xml
+User-agent: *
