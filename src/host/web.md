@@ -43,11 +43,11 @@ http {
 ::: info :information_source: Origin Rules в Cloudflare
 
 1. Создаем DNS запись, которая ведет на нашу ноду
-   ![cf-origin-1](https://x.luver.pw/cf-origin-1.png)
+   ![cf-origin-1](/cf-origin/cf-origin-1.png)
 2. Заходим в Origin Rules
-   ![cf-origin-2](https://x.luver.pw/cf-origin-2.png)
+   ![cf-origin-2](/cf-origin/cf-origin-2.png)
 3. Создаем новое правило с любым названием, заполняем как на скриншоте
-   ![cf-origin-3](https://x.luver.pw/cf-origin-3.png)
+   ![cf-origin-3](/cf-origin/cf-origin-3.png)
 4. Нажимаем Deploy и ждем!
 
 :::
