@@ -7,7 +7,7 @@ const { frontmatter } = useData()
 
 
 <template>
-  <div class="container lt-xl:mt-4 xl:mb-4">
+  <div class="container">
     <span class="label mb-2">Автор{{ (frontmatter.authors.length == 1) ? '' : 'ы' }} статьи</span>
     <AuthorEntry v-for="author in frontmatter.authors" :username="author" :key="author" />
   </div>
@@ -21,15 +21,15 @@ const { frontmatter } = useData()
   background-color: var(--vp-c-bg-elv);
 
   width: auto;
+  max-width: 250px;
   border-radius: 10px;
   padding: 4px 12px;
   display: flex;
   flex-direction: column;
 
   .label {
-    color: rgba(206, 215, 245, 0.25);
+    color: var(--vp-c-text-3);
     font-size: 12px;
-    //margin-bottom: 6px;
   }
 }
 

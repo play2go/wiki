@@ -15,11 +15,11 @@ const { frontmatter } = useData()
   <Layout>
 
     <template #sidebar-nav-before >
-      <PageInfo v-if="frontmatter['authors'] && width < 1280" />
+      <PageInfo v-if="frontmatter['authors'] && width < 1280" class="lt-hidesidebar:mb-4 hidesidebar:mt-4" />
     </template>
 
     <template #aside-outline-before >
-      <PageInfo v-if="frontmatter['authors'] && width >= 1280" />
+      <PageInfo v-if="frontmatter['authors'] && width >= 1280" class="mb-4" />
     </template>
 
   </Layout>
