@@ -24,8 +24,7 @@ order: 6
 ::: info :information_source: Примечание
 Хотите убрать порт в адресе? Используйте Nginx прокси.
 
-Если у Вас нет VPS/дедика, то купить у нас Nginx прокси можно за 30 рублей/мес. <br>
-Если есть VPS/дедик, вот пример конфигурации:
+Пример конфигурации:
 
 ```nginx
 http {
@@ -38,6 +37,18 @@ http {
 }
 ```
 
-Также его можно убрать, используя Origin Rules в Cloudflare (гайд пока что не готов)
+Если у вас нет VPS/дедика, то порт также можно убрать через Origin Rules в Cloudflare (см. ниже).
+
+:::
+
+::: info :information_source: Origin Rules в Cloudflare
+
+1. Создаём DNS запись, которая ведет на нашу ноду
+   ![cf-origin-1](/cf-origin/cf-origin-1.png)
+2. Заходим в Origin Rules
+   ![cf-origin-2](/cf-origin/cf-origin-2.png)
+3. Создаём новое правило с любым названием, заполняем как на скриншоте
+   ![cf-origin-3](/cf-origin/cf-origin-3.png)
+4. Нажимаем Deploy и ждём!
 
 :::
