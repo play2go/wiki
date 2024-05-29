@@ -105,7 +105,7 @@ export default defineConfig({
 
     editLink: {
       pattern: "https://github.com/play2go/wiki/edit/main/src/:path",
-      text: "Редактировать на GitHub",
+      text: "Отредактировать и отправить на проверку (нужен GitHub аккаунт)",
     },
 
     lastUpdated: {
