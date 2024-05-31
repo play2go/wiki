@@ -1,8 +1,9 @@
+# Остаточные файлы после билда
 node_modules
-
 .vitepress/cache
 .vitepress/dist
 
+# Конфигурационные файлы от редакторов .md файлов
 .idea
 .vscode
 .obsidian
