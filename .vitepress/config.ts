@@ -66,8 +66,8 @@ export default defineConfig({
     notFound: {
       code: "Ошибка 404",
       title: "Страница не найдена",
-      quote: "",
-      linkText: "На Главную",
+      quote: "Возможно, она была удалена, либо же переименована без перенаправления. Может быть, [вы это исправите?](https://github.com/play2go/wiki) (а кто, если не вы? ;) )",
+      linkText: "Вернуться на главную",
     },
 
     sidebarMenuLabel: "Меню",
