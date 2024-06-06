@@ -29,14 +29,4 @@ hero:
     - theme: alt icon telegram
       text: Telegram канал
       link: https://t.me/play2go_host
-
-
-# features:
-#   - title: Информация о хостинге
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#     link: /host/
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
