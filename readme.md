@@ -6,13 +6,13 @@
 
 ```sh
 npm i
-npm dev
+npm run dev
 ```
 
 ## Сборка
 
 ```sh
-npm build
+npm run build
 ```
 
 ## Написание своих статей
