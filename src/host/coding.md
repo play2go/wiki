@@ -31,4 +31,23 @@ order: 5
 
 ::: info Примечание
 Чтобы сервер в панели управления пометился как запущенный, выведите в консоль `Started`.
+
+Примеры на различных ЯП:
+
+```python
+print("Started")
+```
+
+---
+
+```javascript
+console.log("Started")
+```
+
+---
+
+```java
+System.out.println("Started")
+```
+
 :::
