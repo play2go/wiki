@@ -70,6 +70,27 @@ export default defineConfig({
       linkText: "Вернуться на главную",
     },
 
+    search: {
+      provider: "local",
+      options: {
+        translations: {
+          button: {
+            buttonText: "Поиск",
+            buttonAriaLabel: "Поиск страницы",
+          },
+          modal: {
+            noResultsText: "Результатов не найдено по запросу",
+            resetButtonTitle: "Очистить",
+            footer: {
+              selectText: "- выбрать",
+              navigateText: "- переключение между результатами",
+              closeText: "- закрыть",
+            },
+          },
+        },
+      },
+    },
+
     sidebarMenuLabel: "Меню",
     darkModeSwitchLabel: "Режим",
     returnToTopLabel: "Наверх",
