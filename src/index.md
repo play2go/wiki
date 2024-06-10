@@ -9,7 +9,7 @@ head:
 
 hero:
   name: "База знаний play2go"
-  tagline: "Вся полезная информация для клиентов хостинга, собранная в одном месте"
+  tagline: "Вся полезная информация для клиентов хостинга, собранная в одном месте и которую может править каждый"
   image: 
     dark: '/assets/p2g-wiki-logo.svg'
     light: '/assets/light/p2g-wiki-logo.svg'
