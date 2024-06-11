@@ -6,7 +6,7 @@ order: 1
 
 1. Перейдите на сервер, в котором нужно подключить RCON
 2. Перейдите на вкладку "Network" и нажмите "Create allocation"
-![Создание доп. порта](assets/allocation-create.png)
+![Создание доп. порта](/minecraft/rcon/allocation-create.png)
 ::: tip :information_source: Примечание
 Если у вас только один порт, придётся купить дополнительный. Без дополнительного порта, увы, никак.
 :::

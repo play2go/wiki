@@ -6,7 +6,7 @@ order: 2
 
 [Скачайте последний релиз](https://github.com/Tiiffi/mcrcon/releases/latest), после чего разархивируйте скачанный архив.
 
-![](assets/unziprcon.png)
+![Заспаковка архива](/minecraft/rcon/unziprcon.png)
 
 Далее включите RCON, добавив в server.properties
 
