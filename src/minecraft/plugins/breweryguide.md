@@ -5,7 +5,7 @@ authors:
   - s3nkwr
 ---
 
-# Brewery Recipes
+# Brewery: Гайд
 
 ## Как же варить напитки?
 
