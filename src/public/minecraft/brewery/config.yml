@@ -13,32 +13,32 @@ pluginPrefix: '&2[Brewery]&f '
 # Будет ли просыпаться игрок в точке дома (/home), если он будет заходить в состоянии алкогольного опьянения (должен быть установлен плагин на /home) [true]
 enableHome: true
 
-# Type of the home-teleport: ['cmd: home']
-# bed = Player will be teleported to his spawn bed
-# 'cmd: home' = /home will be executed by the player. He has to have permissions for it without any delay!
-# 'cmd: spawn' = /spawn will be executed by the player.
-# 'cmd: whatever' = /whatever will be executed by the player.
+# Тип телепорта в точку дома: ['cmd: home']
+# bed = Игрок будет телепортирован к кровати
+# 'cmd: home' = /home будет выполнен игроком. У него без промедления должно быть право на это!
+# 'cmd: spawn' = /spawn будет выполнен игроком.
+# 'cmd: чтоугодно' = /чтоугодно будет выполнен игроком.
 homeType: 'cmd: home'
 
-# If the player "wakes up" at a random place when offline for some time while drinking (the places have to be defined with '/brew Wakeup add' through an admin)
-# The Player wakes at the nearest of two random places of his world [true]
+# Будет ли игрок "просыпаться" в случайном месте когда некоторое время не в сети после питья (места должны быть указаны командой '/brew Wakeup add' через администратора)
+# Игрок будет просыпаться в самой ближайшей из двух случайных мест в мире [true]
 enableWake: true
 
-# If the Player may have to try multiple times when logging in while extremely drunk [true]
+# Будет ли игроку необходимо пытаться заходить несколько раз, если он в состоянии алкогольного опьянения [true]
 enableLoginDisallow: true
 
-# If the Player faints shortly (gets kicked from the server) if he drinks the max amount of alcohol possible [false]
+# Будет ли игрок падать в обморок (кик с сервера) если он выпьет максимально возможное количество алкоголя [false]
 enableKickOnOverdrink: false
 
-# If the Player vomits on high drunkenness (drops item defined below) [true]
-# The item can not be collected and stays on the ground until it despawns.
+# Будет ли игрок блевать в состоянии алкогольного опьянения (дроп предмета, указанный ниже) [true]
+# Предмет не может быть собран и будет лежать на земле до того момента, пока он не задеспаунится.
 enablePuke: true
 
-# Item that is dropped multiple times uncollectable when puking [Soul_Sand]
+# Сам предмет при блевании [Soul_Sand]
 pukeItem: [Soul_Sand]
 
-# Time in seconds until the pukeitems despawn, (mc default is 300 = 5 min) [60]
-# If the item despawn time was changed in the spigot.yml, the pukeDespawntime changes as well.
+# Время в секундах до деспауна предмета блевания, (стандартное в Minecraft 300 = 5 мин) [60]
+# Если время деспауна предметов изменялось в spigot.yml, то pukeDespawntime также изменится.
 pukeDespawntime: 60
 
 # How much the Player stumbles depending on the amount of alcohol he drank. Can be set to 0 and higher than 100 [100]
