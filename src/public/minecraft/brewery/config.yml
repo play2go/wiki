@@ -370,7 +370,7 @@ cauldron:
       - 'e1ff4d/4'
 
   poi_grass:
-    name: Вареные кислые травы
+    name: Варёные кислые травы
     ingredients:
       - Short_Grass
       - Poisonous_Potato
@@ -515,7 +515,7 @@ recipes:
     alcohol: 6
 
   darkbeer:
-    name: Скучное темное пиво/Темное пиво/Хорошее темное пиво
+    name: Скучное тёмное пиво/Тёмное пиво/Хорошее тёмное пиво
     ingredients:
       - Wheat/6
     cookingtime: 8
@@ -541,7 +541,7 @@ recipes:
     alcohol: 8
     lore:
       - '+ &8Отвратительный'
-      - '+ &8Отдает запахом пробки'
+      - '+ &8Отдаёт запахом пробки'
       - '++ &8Мягкий вкус'
       - '+++ &8Насыщенный'
 
@@ -591,7 +591,7 @@ recipes:
     alcohol: 7
 
   apple_liquor:
-    name: Ликер из кислых яблок/Яблочный ликер/Кальвадос
+    name: Ликёр из кислых яблок/Яблочный ликёр/Кальвадос
     ingredients:
       - Apple/12
     cookingtime: 16
@@ -603,7 +603,7 @@ recipes:
     alcohol: 14
     lore:
       - + Кислый как кислота
-      - +++ Хороший яблочный ликер
+      - +++ Хороший яблочный ликёр
 
   whiskey:
     name: Неприглядный виски/виски/Шотландский виски
@@ -717,7 +717,7 @@ recipes:
     lore: +++ &8Абсент высокой пробы
 
   gr_absinthe:
-    name: Бедный абсент/Зеленый абсент/Ярко-зелёный абсент
+    name: Бедный абсент/Зелёный абсент/Ярко-зелёный абсент
     ingredients:
       - Short_Grass/17
       - Poisonous_Potato/2
@@ -759,7 +759,7 @@ recipes:
       - SPEED/1/30-140
 
   eggnog:
-    name: Яичный ликер/Эгг-ног/Ликер «Advocaat»
+    name: Яичный ликёр/Эгг-ног/Ликёр «Advocaat»
     ingredients:
       - Egg/5
       - Sugar/2
