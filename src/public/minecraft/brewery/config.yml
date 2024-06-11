@@ -1,15 +1,16 @@
 # Перевод сделан .s3nkwr
+# Комментарии перевёл Саймон (SimonSays2310)
 
-# -- Settings --
-# Defaults are written in []
+# -- Настройки --
+# Стандартные параметры указаны в []
 
-# Languagefile to be used (found in plugins/Brewery/languages)
+# Используемый язык (находится в plugins/Brewery/languages)
 language: ru
 
-# Prefix used on messages
+# Префикс, используемый в сообщениях
 pluginPrefix: '&2[Brewery]&f '
 
-# If the player wakes up at /home when logging in after excessive drinking (/home plugin must be installed!) [true]
+# Будет ли просыпаться игрок в точке дома (/home), если он будет заходить в состоянии алкогольного опьянения (должен быть установлен плагин на /home) [true]
 enableHome: true
 
 # Type of the home-teleport: ['cmd: home']
