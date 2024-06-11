@@ -63,7 +63,7 @@ TCPShield - прокси сервис, защищающий сервер от DD
 ::: details Если домен не проходит проверку
 Нажмите на Begin verification под полем Domain
 
-Создаем TXT запись в DNS
+Создаём TXT запись в DNS
 
 ![Image 6](/minecraft/protection/img6.png)
 
