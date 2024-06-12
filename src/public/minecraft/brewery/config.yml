@@ -58,7 +58,7 @@ enableCauldronParticles: true
 # Должны ли частицы котла быть уменьшены до минимума [false]
 minimalParticles: false
 
-# Включен ли крафт и использование Brew Sealing Table (2 бутылки на 4 доски) [true, true]
+# Включён ли крафт и использование Brew Sealing Table (2 бутылки на 4 доски) [true, true]
 craftSealingTable: true
 enableSealingTable: true
 
@@ -842,7 +842,7 @@ recipes:
 # Ликёр из одуванчика
 # Свекольный дух,
 # Маковый ликёр,
-# Бамбуковый ликер: Чу Йе Чинг,
+# Бамбуковый ликёр: Чу Йе Чинг,
 # Качака,
 # Коньяк,
 # Ради,
@@ -1007,7 +1007,7 @@ words:
    alcohol: 15
 
 -  replace: е
-   to: ее
+   to: её
    percentage: 40
    alcohol: 15
 
@@ -1075,7 +1075,7 @@ words:
 
 -  replace: ходить
    to: блудить
-   pre: ты можешь,ты всё ещё можешь,ты все еще можешь,ты не можешь
+   pre: ты можешь,ты всё ещё можешь,ты всё ещё можешь,ты не можешь
    match: false
    percentage: 80
    alcohol: 30
@@ -1097,7 +1097,7 @@ words:
 
 -  replace: писать
    to: псаитьа
-   pre: ты можешь,ты всё ещё можешь,ты все еще можешь,ты не можешь
+   pre: ты можешь,ты всё ещё можешь,ты всё ещё можешь,ты не можешь
    match: false
    percentage: 80
    alcohol: 50
