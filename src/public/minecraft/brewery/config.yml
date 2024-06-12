@@ -320,7 +320,7 @@ cauldron:
     ingredients: Pumpkin_Seeds
 
   bone_meal:
-    name: Костлявое пиво
+    name: Костлявый отвар
     ingredients: bone_meal
     color: BRIGHT_GREY
 
@@ -782,7 +782,7 @@ recipes:
 # Некоторые предложения для рецептов:
 
   # g_vodka:
-  #   name: 'Прогорелая водка/&6Золотая водка/&6Мерцающая золотая водка'
+  #   name: 'Прогорклая водка/&6Золотая водка/&6Мерцающая золотая водка'
   #   ingredients:
   #     - Potato/10
   #     - Gold_Nugget/2
@@ -797,7 +797,7 @@ recipes:
   #     - POISON/4
 
   # fire_whiskey:
-  #   name: Порошковые виски/Горящие виски/Пылающие виски
+  #   name: Порошковый виски/Горящий виски/Пылающий виски
   #   ingredients:
   #     - Wheat/10
   #     - Blaze_Powder/2
