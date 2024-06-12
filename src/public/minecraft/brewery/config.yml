@@ -41,46 +41,46 @@ pukeItem: [Soul_Sand]
 # Если время деспауна предметов изменялось в spigot.yml, то pukeDespawntime также изменится.
 pukeDespawntime: 60
 
-# How much the Player stumbles depending on the amount of alcohol he drank. Can be set to 0 and higher than 100 [100]
+# На сколько игрок будет спотыкаться в зависимости от выпитого алкоголя. Может быть 0 и больше чем 100 [100]
 stumblePercent: 100
 
-# Display his drunkenness to the player when he drinks a brew or eats a drainItem [true]
+# Показывать состояние опьянения игроку when he drinks a brew or eats a drainItem [true]
 showStatusOnDrink: true
 
-# Consumable Item/strength. Decreases the alcohol level by <strength> when consumed. (list)
+# Потребляемый предмет/сила. Уменьшает уровень алкоголя на <сила> при потреблении. (список)
 drainItems:
   - Bread/4
   - Milk_Bucket/2
 
-# Show Particles over Cauldrons when they have ingredients and a heat source. [true]
-# The changing color of the particles can help with timing some recipes
+# Показывать частицы у котлов когда они имеют ингредиенты и источник нагрева. [true]
+# Смена цвета частиц может помочь с выбором времени для некоторых рецептов
 enableCauldronParticles: true
-# If Cauldron Particles should be reduced to the bare minimum [false]
+# Должны ли частицы котла быть уменьшены до минимума [false]
 minimalParticles: false
 
-# If crafting and using of the Brew Sealing Table is enabled (2 Bottles over 4 Planks) [true, true]
+# Включен ли крафт и использование Brew Sealing Table (2 бутылки на 4 доски) [true, true]
 craftSealingTable: true
 enableSealingTable: true
 
-# Always show the 1-5 stars on the item depending on the quality. If false, they will only appear when brewing [true]
+# Всегда показывать 1-5 звёзд на предмете в зависимости от качества. Если false, они будут появляться только при варке [true]
 alwaysShowQuality: true
 
-# Always show the alcohol content on the item. If false, it will only show in the brewing stand [false]
+# Показывать на предмете содержимое алкоголя. Если false, он появится только на варочной стойке [false]
 alwaysShowAlc: false
 
-# If we should show who brewed the drink [false]
+# Нужно ли показывать кто сварил напиток [false]
 showBrewer: false
 
-# If aging in -Minecraft- Barrels in enabled [true] and how many Brewery drinks can be put into them [6]
+# Включено ли старение в бочках [true] и сколько напитков из Brewery может в них лежать [6]
 ageInMCBarrels: true
 maxBrewsInMCBarrels: 6
 
-# The used Ingredients and other brewing-data is saved to all Brewery Items. To prevent
-# hacked clients from reading what exactly was used to brew an item, the data can be encoded/scrambled.
-# This is a fast process to stop players from hacking out recipes, once they get hold of a brew.
-# Only drawback: brew items can only be used on another server with the same encodeKey.
-# When using Brews on multiple (BungeeCord) Servers, define a shared Database below at 'multiServerDB'
-# So enable this if you want to make recipe cheating harder, but don't share any brews by world download, schematics, or other means. [false]
+# Использованные ингредиенты и прочие данные сохраняются во всех предметах из Brewery. Дабы взломанные клиенты
+# не могли узнать что конкретно было использовано для варки предмета, данные могут быть закодированы/перемешаны.
+# Это быстрый процесс для предотвращения взлома рецептов игроками, когда они получат настойку.
+# Единственный минус: предметы могут быть использованы на другом сервере только с тем же encodeKey.
+# При использовании предметов на нескольких (BungeeCord) серверах, задайте базу данных внизу в 'multiServerDB'
+# Включите это, если хотите усложнить взлом рецептов, но не делитесь настойками скачиванием мира, схематиками либо же любыми другими способами. [false]
 enableEncode: false
 encodeKey: 0
 
@@ -88,13 +88,13 @@ encodeKey: 0
 # If an Update is found a Message is logged on Server-start and displayed to OPs joining the game
 updateCheck: true
 
-# Autosave interval in minutes [3]
+# Интервал автосохранения в минутах [3]
 autosave: 3
 
-# Show debug messages in log [false]
+# Показывать в логе сообщения о отладке (debug) [false]
 debug: false
 
-# Config Version
+# Версия конфигурации
 version: '3.1'
 
 
