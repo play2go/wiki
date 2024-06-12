@@ -8,7 +8,7 @@ authors:
 :::warning :construction: Under construction...
 [Находящийся в этой статье файл](/minecraft/brewery/config.yml) требует срочного улучшения.
 
-Комментарий: *Отсутствует перевод комментариев, который имелся в [старой конфигурации](/minecraft/brewery/config_old.yml) (перевод там грубый и требует переделывания).*
+Комментарий: *Отсутствует перевод комментариев, который имелся в [старой конфигурации](/minecraft/brewery/config_old.yml) (перевод там грубый и требует переделывания). Все те, кто хотят помочь с переводом, загружайте всё в ветку [translate](https://github.com/play2go/wiki/tree/translate).*
 
 Вы можете помочь, [отправив необходимые исправления](https://github.com/play2go/wiki/blob/main/src/minecraft/plugins/brewery.md) и сняв эту пометку (выставлено 11 июня 2024).
 :::
