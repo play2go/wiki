@@ -1,6 +1,4 @@
 ---
-aside: false
-
 authors:
   - s3nkwr
 ---
