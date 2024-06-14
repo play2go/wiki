@@ -25,10 +25,10 @@ authors: ['envizar']
 
 ## Модовые ядра
 
-- [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/) - Самая популярная реализация для сервера с модами.
-- [Fabric](https://fabricmc.net/use/server/) - Модовый сервер, который в последнее время набрал огромную популярность.
+- [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/) - Самый популярный модлоадер ввиду большого количества модов, но является не оптимизированным.
+- [Fabric](https://fabricmc.net/use/server/) - Модлоадер, которая в последнее время набрал огромную популярность.
   Имеет множество модов на оптимизацию и модов с разнообразными утилитами.
-- [Quilt](https://quiltmc.org/en/install/server/) - Появившийся недавно современный модовый сервер на основе Fabric.
+- [Quilt](https://quiltmc.org/en/install/server/) - Появившийся недавно модлоадер на основе Fabric, поддерживающий также моды на Quilt.
 - [NeoForge](https://neoforged.net/) - Новый модлоадер основанный на Forge, без поддержки модов Forge.
 
 ## Гибриды
