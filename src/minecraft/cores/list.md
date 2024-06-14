@@ -7,7 +7,7 @@ authors: ['envizar']
 
 ## Ванильные ядра
 
-- [Vanilla](https://www.minecraft.net/en-us/download/server) - самое обычное неоптимизированное ванильное ядро.
+- [Vanilla](https://getbukkit.org/download/vanilla) - самое обычное неоптимизированное ванильное ядро.
 - [Paper](https://papermc.io/software/paper) - оптимизированное ядро с поддержкой Spigot/Bukkit плагинов.
   Отличный выбор для тех, кто не знает, с чего начать.
 - [Purpur](https://purpurmc.org/) - форк Paper, то есть включает в себя поддержку всех оптимизаций Paper.
