@@ -17,7 +17,7 @@ npm run build
 
 ## Написание своих статей
 
-Более подробно о редактировании статей в репозитории написано в CONTRIBUTING.md.
+Более подробно о редактировании статей в репозитории написано в [CONTRIBUTING.md](https://github.com/play2go/wiki/blob/main/CONTRIBUTING.md).
 
 Сами статьи можно писать в [Visual Studio Code](https://code.visualstudio.com/) либо же в [Obsidian](https://obsidian.md/). Допустимо использование других редакторов, поддерживающих Markdown разметку (но обратите внимание, что файл `.gitignore` не был настроен на всё то, что только существует).
 
