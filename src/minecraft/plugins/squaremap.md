@@ -18,7 +18,7 @@ API этого плагина есть на GitHub, и благодаря нем
 Плагин требует дополнительный порт!
 :::
 
-1. Скачиваем плагин Squaremap с [Modrinth](https://modrinth.com/plugin/squaremap) для нужной вам версии. 
+1. Скачиваем плагин Squaremap с [Modrinth](https://modrinth.com/plugin/squaremap) для нужной вам версии.
 2. Скидываем его в `~/plugins` вашего сервера.
 3. Перезапускаем/Запускаем сервер.
 4. Плагин установлен
@@ -70,15 +70,15 @@ API этого плагина есть на GitHub, и благодаря нем
 
 | Имя | Параметр | Описание | Право |
 | ----------- | ----------- | ----------- | ----------- |
-map cancelrender | `[world]` | Отмена рендера мира | squaremap.command.cancelrender |                    
-map confirm | - | Подтвердить опасное действие  | - |      
-map fullrender | `[world]` | Полностью прорендерить мир | squaremap.command.fullrender |       
-map help | `[command]` | Команда которая отображает команды | - |    
-map hide | `[player]` | Скрывает игрока с карты | squaremap.command.hide | 
+map cancelrender | `[world]` | Отмена рендера мира | squaremap.command.cancelrender |
+map confirm | - | Подтвердить опасное действие  | - |
+map fullrender | `[world]` | Полностью прорендерить мир | squaremap.command.fullrender |
+map help | `[command]` | Команда которая отображает команды | - |
+map hide | `[player]` | Скрывает игрока с карты | squaremap.command.hide |
 map show | `[player]` | Показывает игрока на карте, если он скрыт | squaremap.command.show |  
 map pauserender | `[world]` | Остановить рендер мира | squaremap.command.pauserender |
-map radiusrender | `<world> <radius> [center]` | Запускает рендер по радиусу | squaremap.command.radiusrender |                 
-map reload | - | Перезагружает плагин | squaremap.command.reload |      
-map resetmap | - | Сбрасывает карту для мира | squaremap.command.resetmap |                        
-map progresslogging | `[toggle]` | Показывает журнала рендера | squaremap.command.progresslogging | 
-map progresslogging rate | `<seconds>` | Настраивает скорость журнала рендера | squaremap.command.progresslogging |             
+map radiusrender | `<world> <radius> [center]` | Запускает рендер по радиусу | squaremap.command.radiusrender |
+map reload | - | Перезагружает плагин | squaremap.command.reload |
+map resetmap | - | Сбрасывает карту для мира | squaremap.command.resetmap |
+map progresslogging | `[toggle]` | Показывает журнала рендера | squaremap.command.progresslogging |
+map progresslogging rate | `<seconds>` | Настраивает скорость журнала рендера | squaremap.command.progresslogging |
