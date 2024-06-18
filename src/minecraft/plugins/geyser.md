@@ -39,6 +39,8 @@ remote:
   auth-type: online
 ```
 
+[Для более расширеной настройки, обратитесь к вики Geyser](https://wiki.geysermc.org/geyser/understanding-the-config/)
+
 ## Использование Geyser с Floodgate
 
 Floodgate — это дополнение к Geyser, которое позволяет игрокам Bedrock Edition подключаться к серверам Java Edition с Geyser, не имея аккаунта Xbox. Это особенно полезно, если на сервере используется оффлайн-режим.
@@ -62,7 +64,3 @@ remote:
   port: 25565 (вписывайте сюда свой порт)
   auth-type: floodgate
 ```
-
-**Настройка Floodgate**:
-В папке `plugins/Floodgate` найдите файл `config.yml`.
-Откройте его в любом текстовом редакторе и настройте параметры по своему усмотрению.
