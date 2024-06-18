@@ -63,6 +63,6 @@ remote:
   auth-type: floodgate
 ```
 
-3. **Настройка Floodgate**:
+**Настройка Floodgate**:
 В папке `plugins/Floodgate` найдите файл `config.yml`.
 Откройте файл в любом текстовом редакторе и настройте параметры по своему усмотрению.
