@@ -35,7 +35,7 @@ remote:
   auth-type: online
 ```
 
-[Для более расширеной настройки, обратитесь к вики Geyser](https://wiki.geysermc.org/geyser/understanding-the-config/)
+[Для более расширенной настройки, обратитесь к вики Geyser](https://wiki.geysermc.org/geyser/understanding-the-config/)
 
 ## Использование Geyser с Floodgate
 
