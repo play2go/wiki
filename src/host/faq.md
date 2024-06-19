@@ -1,6 +1,7 @@
 ---
-aside: false
 order: 3
+authors:
+  - envizar
 ---
 
 # Часто задаваемые вопросы

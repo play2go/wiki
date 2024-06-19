@@ -1,5 +1,8 @@
 ---
 order: 6
+authors:
+  - SimonSays2310
+  - luverktoya
 ---
 
 # Тарифы WEB

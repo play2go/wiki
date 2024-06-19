@@ -1,5 +1,7 @@
 ---
 order: 1
+authors:
+  - Timtaran
 ---
 
 # Настройка RCON
