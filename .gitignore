@@ -8,3 +8,6 @@ package-lock.json
 .idea
 .vscode
 .obsidian
+
+# Прочие файлы, которые не должны быть в репозитории
+*.swp
