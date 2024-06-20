@@ -21,7 +21,7 @@ hero:
       text: Основной сайт
       link: https://play2go.cloud
     - theme: alt icon pencil
-      text: Нашли ошибку/хотите написать статью?
+      text: Сделайте вклад в вики!
       link: https://github.com/play2go/wiki/blob/main/CONTRIBUTING.md
     - theme: alt icon ptero
       text: Панель управления
