@@ -20,6 +20,9 @@ hero:
     - theme: brand icon main-site
       text: Основной сайт
       link: https://play2go.cloud
+    - theme: alt icon pencil
+      text: Сделайте вклад в вики!
+      link: https://github.com/play2go/wiki/blob/main/CONTRIBUTING.md
     - theme: alt icon ptero
       text: Панель управления
       link: https://control.play2go.cloud
