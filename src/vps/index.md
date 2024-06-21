@@ -1,3 +1,7 @@
+---
+next: false
+---
+
 # VPS
 
 :::warning :construction: Work in progress...
