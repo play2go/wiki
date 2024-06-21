@@ -19,9 +19,7 @@ API этого плагина есть на GitHub, и благодаря нем
 :::
 
 1. Скачиваем плагин Squaremap с [Modrinth](https://modrinth.com/plugin/squaremap) для нужной вам версии.
-2. Скидываем его в `~/plugins` вашего сервера.
-3. Перезапускаем/Запускаем сервер.
-4. Плагин установлен
+2. [Дальше выполняем действия из данной статьи](https://wiki.play2go.cloud/minecraft/installplugins).
 
 ## Настройка
 
