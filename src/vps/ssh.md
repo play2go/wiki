@@ -20,7 +20,7 @@ authors:
 1. Скачайте Termius по [этой](https://termius.com/download/) ссылке
 2. После загрузки регистрируетесь в этой программе
 3. Потом нажмите на "NEW HOST"
-4. В первой строке "Address" (там где написано "IP or Hostname") вводите IP адрес Вашей VPS
+4. В первой строке "Address" (там где написано "IP or Hostname") введите IP адрес Вашей VPS
 5. Если надо, заполняете форму "General" (не обязательно)
 6. В "SSH on (значение) port" пишите Ваш порт от VPS
 7. В форме "Credentials from Personal vault" (в поле "Username") пишите имя пользователя VPS (по стандарту это "root")
