@@ -31,7 +31,7 @@ authors:
 
 1. Скачайте PuTTY по [этой](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) ссылке
 :::info Обратите внимание
-Для использования PuTTY на Linux системах, используйте Wine, который позволяет запускать .exe приложения на Linux системах
+Для использования PuTTY на Linux системах, введите команду `apt update && apt install putty`
 :::
 2. В строке "Host Name (or IP address)" напишите IP адрес Вашей VPS
 3. Дальше пишите имя пользователя
