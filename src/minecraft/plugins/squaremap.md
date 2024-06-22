@@ -19,9 +19,7 @@ API этого плагина есть на GitHub, и благодаря нем
 :::
 
 1. Скачиваем плагин Squaremap с [Modrinth](https://modrinth.com/plugin/squaremap) для нужной вам версии.
-2. Скидываем его в `~/plugins` вашего сервера.
-3. Перезапускаем/Запускаем сервер.
-4. Плагин установлен
+2. [Дальше выполняем действия из данной статьи](https://wiki.play2go.cloud/minecraft/installplugins).
 
 ## Настройка
 
@@ -45,21 +43,16 @@ API этого плагина есть на GitHub, и благодаря нем
 #### Настройка Squaremap Skins
 
 1. Скачиваем архив со всеми аддонами с [GitHub](https://nightly.link/jpenilla/squaremap-addons/workflows/build/master/artifacts.zip)
-2. Распаковываем плагин `squaremap-skins-1.0.0-SNAPSHOT.jar`
-3. Скидываем его в `~/plugins` вашего сервера.
-4. Перезапускаем/Запускаем сервер.
-5. Заходим в конфиг Squaremap (/plugins/squaremap/config.yml).
-6. Находим поле `heads-url: https://mc-heads.net/avatar/{uuid}/16` и изменяем его на `heads-url: http://localhost:{port}/skins/{name}.png`
-7. Перезапускаем/Запускаем сервер.
-8. Аддон установлен
+2. [Выполняем действия из данной статьи](https://wiki.play2go.cloud/minecraft/installplugins).
+3. Заходим в конфиг Squaremap (`~/plugins/squaremap/config.yml).
+4. Находим поле `heads-url: https://mc-heads.net/avatar/{uuid}/16` и изменяем его на `heads-url: http://localhost:{port}/skins/{name}.png`
+5. Перезапускаем/Запускаем сервер.
+6. Аддон установлен
 
 ## Остальные аддоны
 
 1. Скачиваем архив со всеми аддонами с [GitHub](https://nightly.link/jpenilla/squaremap-addons/workflows/build/master/artifacts.zip)
-2. Распаковываем нужный вам аддон.
-3. Скидываем его в `~/plugins` вашего сервера.
-4. Перезапускаем/Запускаем сервер.
-5. Аддон установлен
+2. [Выполняем действия из данной статьи](https://wiki.play2go.cloud/minecraft/installplugins).
 
 ## Команды Squaremap
 
