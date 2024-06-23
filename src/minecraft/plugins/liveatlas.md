@@ -7,7 +7,7 @@ authors:
 
 LiveAtlas это проект JLyne, нацеленный на улучшение веб интерфейса карт таких как: Squaremap, Dynmap.
 
-LiveAtlas сделан на [Vue.js](https://github.com/vuejs/core) и TypeScript.
+LiveAtlas сделан на [Vue.js](https://github.com/vuejs/core) и [TypeScript](https://www.typescriptlang.org).
 
 ## Установка для Dynmap
 
