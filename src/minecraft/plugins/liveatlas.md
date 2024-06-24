@@ -17,19 +17,19 @@ LiveAtlas сделан на [Vue.js](https://github.com/vuejs/core) и [TypeScri
 :::
 
 1. Скачиваем архив с файлами LiveAtlas. [GitHub](https://github.com/JLyne/LiveAtlas/releases/latest)
-2. Распаковываем его в папку `~plugins/dynmap/web` вашего сервера.
-3. Заходим в конфиг Dynmap `~plugins/dynmap/configuration.txt`.
-4. Находим поле `update-webpath-files: true` и ставим его на false `update-webpath-files: false`.
-5. Убираем веб CDN кеш. Если не знаете что это такое, то не убирайте
+2. Распаковываем его в папку `~plugins/dynmap/web` вашего сервера;
+3. Заходим в конфиг Dynmap `~plugins/dynmap/configuration.txt`;
+4. Находим поле `update-webpath-files: true` и ставим его на false `update-webpath-files: false`;
+5. Убираем веб CDN кеш. Если не знаете что это такое, то не убирайте;
 6. LiveAtlas для Dynmap установлен.
 
 ## Установка для Squaremap
 
 1. Скачиваем архив с файлами LiveAtlas. [GitHub](https://github.com/JLyne/LiveAtlas/releases/latest)
-2. Распаковываем его в папку `~plugins/Squaremap/web` вашего сервера.
-3. Заходим в конфиг Dynmap `~plugins/Squaremap/config.yml`.
-4. Находим поле `auto-update: true` и ставим его на false `auto-update: false`
-5. Теперь надо изменить `index.html` LiveAtlas'а, чтобы он понял как работать с Squaremap: `plugins/Squaremap/web/index.html`.
+2. Распаковываем его в папку `~plugins/Squaremap/web` вашего сервера;
+3. Заходим в конфиг Dynmap `~plugins/Squaremap/config.yml`;
+4. Находим поле `auto-update: true` и ставим его на false `auto-update: false`;
+5. Теперь надо изменить `index.html` LiveAtlas'а, чтобы он понял как работать с Squaremap: `plugins/Squaremap/web/index.html`;
 6. Внутрь `<script> window.liveAtlasConfig` добавляем:
 
   ```js
@@ -53,16 +53,16 @@ LiveAtlas сделан на [Vue.js](https://github.com/vuejs/core) и [TypeScri
       },
   ```
 
-7. Убираем также `<script src="./standalone/config.js"></script>`, так как для Squaremap он не нужен.
-8. Убираем веб CDN кеш.
+7. Убираем также `<script src="./standalone/config.js"></script>`, так как для Squaremap он не нужен;
+8. Убираем веб CDN кеш;
 9. LiveAtlas для Squaremap установлен.
 
 ## Установка для прокси (Nginx)
 
-1. Следуйте гайдам [Dynmap](https://github.com/webbukkit/dynmap/wiki/External-Webserver-Basics) или [Squaremap](https://github.com/jpenilla/squaremap/wiki/Internal-vs-External-Web-Server#external-server), если надо.
+1. Следуйте гайдам [Dynmap](https://github.com/webbukkit/dynmap/wiki/External-Webserver-Basics) или [Squaremap](https://github.com/jpenilla/squaremap/wiki/Internal-vs-External-Web-Server#external-server), если надо;
 2. Скачиваем архив с файлами LiveAtlas. [GitHub](https://github.com/JLyne/LiveAtlas/releases/latest)
-3. Распаковываем архив в корень сайта. index.html должен быть перезаписан.
-4. Конфигурация обязательна.
+3. Распаковываем архив в корень сайта. index.html должен быть перезаписан;
+4. Конфигурация обязательна;
 
 ::: tip Совет
 
@@ -72,5 +72,5 @@ LiveAtlas сделан на [Vue.js](https://github.com/vuejs/core) и [TypeScri
 
 :::
 
-5. Убираем веб CDN кеш. Если не знаете что это такое, то не убирайте.
+5. Убираем веб CDN кеш. Если не знаете что это такое, то не убирайте;
 6. LiveAtlas для Веб сервера установлен.

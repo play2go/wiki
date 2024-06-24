@@ -9,7 +9,7 @@ LuckPerms - это популярный плагин для управления
 
 ## Установка
 
-1. Скачайте [плагин](https://luckperms.net/download).
+1. Скачайте [плагин](https://luckperms.net/download);
 2. [Дальше выполняем действия из данной статьи](https://wiki.play2go.cloud/minecraft/installplugins).
 
 ## Основной функционал
