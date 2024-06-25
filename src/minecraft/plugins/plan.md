@@ -17,7 +17,7 @@ Plan - это плагин и его название расшифровывае
 Плагин требует дополнительный порт!
 :::
 
-1. Скачиваем сам плагин с сайта [SpigotMC](https://www.spigotmc.org/resources/32536/)
+1. Скачиваем сам плагин с сайта [SpigotMC](https://www.spigotmc.org/resources/32536/);
 2. [Дальше выполняем действия из данной статьи](https://wiki.play2go.cloud/minecraft/installplugins).
 
 ## Настройка
@@ -82,23 +82,23 @@ Database:
 - Сайт для аналитики и статистики вашего сервера;
 - Показ, из какой страны ваши игроки, а также с какого адреса и версии заходят;
 - Сколько времени игроки наиграли, удержание, средний онлайн;
-- Поддержка плагинов: Essentials, ViaVersion, DiscordSRV, LuckPerms и многие другие.
+- Поддержка плагинов: Essentials, ViaVersion, DiscordSRV, LuckPerms и многих других.
 
 ## Команды
 
 | Имя | Замены | Описание |
 | ----------- | ----------- | ----------- |
-| plan servers | - | Количество серверов в базе данных. |
+| plan servers | - | Количество серверов в базе данных |
 | plan search | name/uuid | Поиск игрока |
-| plan ingame | name/uuid | Показывает информацию об игроке в игре |
-| plan json | name/uuid | Показывает данные об игроке в виде JSON |
+| plan ingame | name/uuid | Показать информацию об игроке в игре |
+| plan json | name/uuid | Показать данные об игроке в виде JSON |
 | plan register | --code (код) | Регистрация веб-пользователя |
-| plan unregister | username | Удаляет веб-пользователя |  
+| plan unregister | username | Удалить веб-пользователя |  
 | plan logout | username | Выкинуть (разлогинить) пользователя из веб-панели |
-| plan users | - | Показывает всех пользователей веб-панели |
+| plan users | - | Показать всех пользователей веб-панели |
 | plan info | - | Информация о плагине |
-| plan reload | - | Перезагружает плагин |
-| plan disable | feature | Отключает плагин или какую-либо функцию |  
+| plan reload | - | Перезагрузить плагин |
+| plan disable | feature | Отключить плагин или какую-либо функцию |  
 | plan db | subcommand | Управление базой данных |
-| plan export | json/html | Экспортирует json или html данные |
-| plan import | json/html | Импортирует json или html данные |
+| plan export | json/html | Экспорт json или html данных |
+| plan import | json/html | Импорт json или html данных |
