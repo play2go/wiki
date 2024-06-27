@@ -1,14 +1,24 @@
-# Глобальные отключения правил
+# Чёрный список правил (глобальные отключения)
 # Если нужно отключить правило только в определённой статье, используйте комментарий <!-- markdownlint-disable ПРАВИЛА -->
 # Пример: <!-- markdownlint-disable MD22919 MD234211 и т.д -->
 # Подробнее о конфигурации можно посмотреть в https://github.com/DavidAnson/markdownlint#configuration
 
-# Отключает проверку на длину строки
+# line-length (проверка на длину строки)
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/md013.md
+# Отсутствует смысл правила (гитхаб и вайтпресс могут отрисовывать текст любой длины)
 MD013: false
 
-# Отключает проверку на HTML в MD
-# Бывает нужно встраивать Vue-компоненты, как в MDX
+# no-inline-html (HTML тэги в Markdown)
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/md033.md
+# Бывает, нужно встраивать Vue-компоненты, как в MDX
 MD033: false
 
-# Отключает проверку пунктуации в заголовках
+# no-trailing-punctuation (пунктуация в заголовках)
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/md026.md
+# Отсутствует смысл правила (иногда без двоеточия и прочей пунктуации в заголовках никак, гитхаб и вайтпресс отрисовывают её стабильно)
 MD026: false
+
+# no-bare-urls (угловые скобки в ссылках и электронных почтах, или же <https://example.com> вместо https://example.com)
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/md034.md
+# Отсутствует смысл правила + мешает в работе (гитхаб и вайтпресс могут отрисовывать ссылки и без угловых скобок, а вставлять их всё время на постоянной основе - такая себе работа)
+MD034: false
