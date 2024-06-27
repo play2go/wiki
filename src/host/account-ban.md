@@ -6,7 +6,7 @@ authors:
 
 # Блокировка аккаунта
 
-![account-ban](/account-ban.png)
+![account-ban](/host/account-ban.png)
 
 Если Вы перешли на эту статью, возможно, Вас заблокировали на хостинге.
 Это можно понять по статусу "Suspended" у всех серверов в [панели управления](https://control.play2go.cloud),
