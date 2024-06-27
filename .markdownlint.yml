@@ -15,7 +15,7 @@ MD033: false
 
 # no-trailing-punctuation (пунктуация в заголовках)
 # https://github.com/DavidAnson/markdownlint/blob/main/doc/md026.md
-# Отсутствует смысл правила (иногда без двоеточия и прочей пунктуации в заголовках никак, гитхаб и вайтпресс отрисовывают её стабильно)
+# В некоторых случаях может быть такое, что без двоеточия и прочей пунктуации в заголовках никак не обойтись (ref: https://wiki.play2go.cloud/host/pythonlibs)
 MD026: false
 
 # no-bare-urls (угловые скобки в ссылках и электронных почтах, или же <https://example.com> вместо https://example.com)
