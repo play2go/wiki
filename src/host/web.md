@@ -25,12 +25,12 @@ authors:
 - Форум
 - Прочие сайты на различную тематику
 
-::: warning :warning: Предупреждение
+:::warning :warning: Предупреждение
 Запрещено хостить NSFW контент, фишинг сайты, ботнет-панели и хостить/делать любые другие сайты/действия,
 которые запрещены нашим [Пользовательским соглашением](https://play2go.cloud/user-agreement) и/или нарушают законодательство РФ.
 :::
 
-::: info :information_source: Примечание
+:::info :information_source: Примечание
 Хотите убрать порт в адресе? Используйте Nginx прокси.
 
 Пример конфигурации:
@@ -50,7 +50,7 @@ http {
 
 :::
 
-::: info :information_source: Origin Rules в Cloudflare
+:::info :information_source: Origin Rules в Cloudflare
 
 1. Создаём DNS запись, которая ведёт на нашу ноду
    ![cf-origin-1](/host/cf-origin/cf-origin-1.png)

@@ -14,7 +14,7 @@ LiveAtlas сделан на [Vue.js](https://github.com/vuejs/core) и [TypeScri
 
 ## Установка для Dynmap
 
-::: warning :warning: Обратите внимание
+:::warning :warning: Обратите внимание
 Этот пункт **только** для установки на Dynmap.
 Не подходит к другим плагинам.
 :::
@@ -67,7 +67,7 @@ LiveAtlas сделан на [Vue.js](https://github.com/vuejs/core) и [TypeScri
 3. Распаковываем архив в корень сайта. index.html должен быть перезаписан;
 4. Конфигурация обязательна;
 
-::: tip Совет
+:::tip Совет
 
 - Для Dynmap конфигурация не требуется.
 - Для Squaremap, следуйте этому [гайду](#установка-для-squaremap).
