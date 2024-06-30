@@ -23,7 +23,7 @@ TCPShield - прокси сервис, защищающий сервер от DD
 
 Для начала, нужно зайти на сайт [tcpshield.com](https://tcpshield.com/) и зарегистрироваться
 
-![Image 1](/minecraft/protection/img1.png)
+![](/minecraft/protection/img1.png)
 
 ## Шаг 2
 
@@ -33,18 +33,18 @@ TCPShield - прокси сервис, защищающий сервер от DD
 
 Добавляем CNAME запись в DNS. Target можно скопировать во вкладке domains в настройках сети.
 
-![Image 2](/minecraft/protection/img2.png)
+![](/minecraft/protection/img2.png)
 
 ## Шаг 4
 
 Устанавливаем плагин на сервер, к которому будет подключаться клиент, и который будет перенаправлять весь трафик на прокси TCP Shield. Затем прокси TCP Shield будет перенаправлять трафик на целевой сервер.
-![Image 3](/minecraft/protection/img3.png)
+![](/minecraft/protection/img3.png)
 
 ## Шаг 5
 
 Переходим во вкладку Backends и нажимаем Add set
 
-![Image 4](/minecraft/protection/img4.png)
+![](/minecraft/protection/img4.png)
 
 В поле **Name** придумываем любое имя
 
@@ -58,14 +58,14 @@ TCPShield - прокси сервис, защищающий сервер от DD
 
 Например: *play.example.com*
 
-![Image 5](/minecraft/protection/img5.png)
+![](/minecraft/protection/img5.png)
 
 :::details Если домен не проходит проверку
 Нажмите на Begin verification под полем Domain
 
 Создаём TXT запись в DNS
 
-![Image 6](/minecraft/protection/img6.png)
+![](/minecraft/protection/img6.png)
 
 **Backend set**: Выбирайте ваш сервер, который вы добавляли ранее
 :::

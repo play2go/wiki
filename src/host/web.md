@@ -53,11 +53,11 @@ http {
 :::info :information_source: Origin Rules в Cloudflare
 
 1. Создаём DNS запись, которая ведёт на нашу ноду
-   ![cf-origin-1](/host/cf-origin/cf-origin-1.png)
+   ![](/host/cf-origin/cf-origin-1.png)
 2. Заходим в Origin Rules
-   ![cf-origin-2](/host/cf-origin/cf-origin-2.png)
+   ![](/host/cf-origin/cf-origin-2.png)
 3. Создаём новое правило с любым названием, заполняем как на скриншоте
-   ![cf-origin-3](/host/cf-origin/cf-origin-3.png)
+   ![](/host/cf-origin/cf-origin-3.png)
 4. Нажимаем Deploy и ждём!
 
 :::
