@@ -22,7 +22,7 @@ NeoProtect - прокси сервис, аналогичный TCPShield, защ
 
 ## Шаг 1
 
-Для начала, нужно зайти на сайт [neoprotect.net](https://neoprotect.net/) и зарегистрироваться
+Для начала, нужно зайти на сайт [neoprotect.net](https://neoprotect.net/) и зарегистрироваться.
 
 ![](/minecraft/protection/neo.png)
 
