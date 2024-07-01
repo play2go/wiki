@@ -1,7 +1,14 @@
+# Файл конфигурации линтера
+# Подробнее о ней можно посмотреть в https://github.com/DavidAnson/markdownlint#configuration
+# Пример можно посмотреть в https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.yaml
+# Данная конфигурация распространяется ГЛОБАЛЬНО на все .md файлы, перед тем как запрашивать в ней изменения, сначала убедитесь, что они принесут пользу, а не вред!
+
+
+# BEGIN
 # Чёрный список правил (глобальные отключения)
 # Если нужно отключить правило только в определённой статье, используйте комментарий <!-- markdownlint-disable ПРАВИЛА -->
 # Пример: <!-- markdownlint-disable MD22919 MD234211 и т.д -->
-# Подробнее о конфигурации можно посмотреть в https://github.com/DavidAnson/markdownlint#configuration
+
 
 # line-length (проверка на длину строки)
 # https://github.com/DavidAnson/markdownlint/blob/main/doc/md013.md
@@ -12,11 +19,6 @@ MD013: false
 # https://github.com/DavidAnson/markdownlint/blob/main/doc/md033.md
 # Бывает, нужно встраивать Vue-компоненты, как в MDX
 MD033: false
-
-# no-trailing-punctuation (пунктуация в заголовках)
-# https://github.com/DavidAnson/markdownlint/blob/main/doc/md026.md
-# В некоторых случаях может быть такое, что без двоеточия и прочей пунктуации в заголовках никак не обойтись (ref: https://wiki.play2go.cloud/host/pythonlibs)
-MD026: false
 
 # no-bare-urls (угловые скобки в ссылках и электронных почтах, или же <https://example.com> вместо https://example.com)
 # https://github.com/DavidAnson/markdownlint/blob/main/doc/md034.md
@@ -29,3 +31,18 @@ MD034: false
 # 1. Таким людям в вики делать нечего (вайтпресс под них не подстроен и его невозможно подстроить);
 # 2. В большинстве случаев к фотографии либо невозможно придумать альтернативный текст, либо же он не всегда является информативным: авторы придумывают в нём либо белиберду, либо не самое информативное описание (по типу "Создание чего-либо", "Процесс установки", "Image 1" и т.п) по указанию линтера/по незнанию того, что его можно не указывать, оставив квадратные скобки пустыми.
 MD045: false
+
+# END
+
+
+# BEGIN
+# Частичные ограничения (изменения некоторых параметров в определённых правилах)
+
+
+# no-trailing-punctuation (пунктуация в заголовках)                                                 # https://github.com/DavidAnson/markdownlint/blob/main/doc/md026.md                                 # Пунктуация действительно не нужна в заголовках, но не абсолютно вся (в частности, двоеточие не должно попадать под запрет линтером)
+# ref: https://wiki.play2go.cloud/host/pythonlibs
+MD026:
+  # Снизу - запрещённая пунктуация
+  punctuation: ".,;!。，；！"
+
+# END
