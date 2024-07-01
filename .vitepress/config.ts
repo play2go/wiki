@@ -45,7 +45,7 @@ export default defineConfig({
   lang: "ru-RU",
   title: "База знаний play2go",
   description:
-    "Вики с большим количеством полезной информации для пользователей Play2GO.cloud",
+    "Вики с большим количеством полезной информации для пользователей play2go.cloud",
 
   srcDir: "src",
   cleanUrls: true,
