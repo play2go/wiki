@@ -17,7 +17,7 @@
     "build": "vitepress build",
     "preview": "vitepress preview",
     "check": "markdownlint src/",
-    "attemptfix": "markdownlint --fix src/"
+    "attemptfix": "markdownlint --fix src/ && git status"
   },
   "dependencies": {
     "@vueuse/core": "^10.10.0"
