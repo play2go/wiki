@@ -9,12 +9,15 @@
     "vitepress": "^1.2.2",
     "vitepress-plugin-tabs": "^0.5.0",
     "vitepress-sidebar": "^1.23.2",
-    "vue": "^3.4.27"
+    "vue": "^3.4.27",
+    "markdownlint-cli": "^0.41.0"
   },
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "check": "markdownlint src/",
+    "attemptfix": "markdownlint --fix src/"
   },
   "dependencies": {
     "@vueuse/core": "^10.10.0"
