@@ -14,7 +14,7 @@
 > [!IMPORTANT]
 > Этот способ подразумевает, что вы умеете работать с Git/GitHub Desktop, подробнее о настройке можно прочитать [тут](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup) и [тут](https://docs.github.com/ru/desktop/configuring-and-customizing-github-desktop/configuring-git-for-github-desktop)
 
-1. Сделайте форк этого репозитория;
+1. Сделайте [форк](https://github.com/play2go/wiki/fork) этого репозитория;
 2. Клонируйте его себе на компьютер (`git clone ссылка на ваш форк`);
 3. Создайте отдельную ветку и перейдите туда (`git checkout -b мояправка`);
 4. Сделайте нужные изменения, запишите их (`git commit -am "Описание правки"`) и опубликуйте (`git push origin ветка`), после чего создайте пулл реквест в нашем репозитории.
