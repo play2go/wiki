@@ -16,9 +16,9 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
-    "check": "markdownlint src/",
-    "attemptfix": "markdownlint --fix src/ && git status",
-    "fixandcommit": "markdownlint --fix src/ && git commit -am 'Обработка линтером (команда npm run fixandcommit)'"
+    "check": "markdownlint *.md && markdownlint src/",
+    "attemptfix": "markdownlint --fix *.md && markdownlint --fix src/ && git status",
+    "fixandcommit": "markdownlint --fix *.md && markdownlint --fix src/ && git commit -am 'Автоматическая обработка линтером (команда npm run fixandcommit)'"
   },
   "dependencies": {
     "@vueuse/core": "^10.10.0"
