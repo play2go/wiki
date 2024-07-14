@@ -12,6 +12,7 @@ npm run dev
 ## Сборка
 
 ```sh
+npm i
 npm run build
 ```
 
