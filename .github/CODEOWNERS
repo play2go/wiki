@@ -1,3 +1,7 @@
+# Владельцы кода (CODEOWNERS)
+# При создании пулл реквеста, который изменяет тот или иной файл из этого списка, в ревьюверы будут автоматически добавляться люди, которые тут указаны.
+# Подробнее можно прочитать на https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
 # Технические страницы
 /.vitepress/ @SimonSays2310 @envizar
 /src/index.md @SimonSays2310 @envizar
@@ -9,3 +13,6 @@ README.md @SimonSays2310
 # Важные категории
 /src/host/ @SimonSays2310
 /src/vds/ @SimonSays2310
+
+# Статьи, выставленные на улучшение/удаление
+/src/minecraft/cores/velocity.md @SimonSays2310
