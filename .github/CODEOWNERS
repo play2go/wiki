@@ -2,9 +2,11 @@
 # При создании пулл реквеста, который изменяет тот или иной файл из этого списка, в ревьюверы будут автоматически добавляться люди, которые тут указаны.
 # Подробнее можно прочитать на https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 
-# Технические страницы
+# Технические файлы
 /.vitepress/ @SimonSays2310 @envizar
 /src/index.md @SimonSays2310 @envizar
+package.json @SimonSays2310 @envizar
+uno.config.ts @envizar
 /.github/ @SimonSays2310
 CONTRIBUTING.md @SimonSays2310
 LICENSE.md @SimonSays2310
