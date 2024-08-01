@@ -15,7 +15,7 @@ authors:
 1. Установите [Nekoray](https://github.com/MatsuriDayo/nekoray/releases).
 2. Скопируйте выбранную вами ссылку VPN ("vmess://", "vless://", "ss://"), они будут выданы вам после покупки VPN.
 3. В приложении нажмите Program -> Add profile from clipboard.
-4. Нажмите правой кнопкой мышки по профилю VPN -> Start, потом включите опции Tun mode и System Proxy.
+4. Нажмите правой кнопкой мышки по профилю VPN -> Start, потом включите опции Tun Mode и System Proxy.
 
 Настройка завершена, когда захотите выключить VPN, нажмите правой кнопкой мышки по профилю -> Stop и **не забудьте снять галочки с Tun mode и System Proxy**.
 
