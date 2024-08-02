@@ -6,6 +6,15 @@ authors:
 
 # Как использовать наш VPN?
 
+:::warning :construction: Under construction...
+
+Эта статья требует срочного улучшения.
+
+Комментарий: *Отсутствует инструкция по настройке для Android.*
+
+Вы можете помочь, [отправив необходимые изменения](https://github.com/play2go/wiki/blob/main/src/host/vpn.md) и сняв эту пометку (выставлено 2 августа 2024)
+:::
+
 ## Какой у нас метод подключения?
 
 Мы используем Marzban (VMess, VLESS, Shadowsocks).
