@@ -8,6 +8,7 @@
 package.json @SimonSays2310 @envizar
 uno.config.ts @envizar
 /.github/ @SimonSays2310
+.markdownlint.yml @SimonSays2310
 CONTRIBUTING.md @SimonSays2310
 LICENSE.md @SimonSays2310
 README.md @SimonSays2310
