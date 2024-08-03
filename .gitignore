@@ -12,3 +12,4 @@ package-lock.json
 # Vim
 *.s[a-v][a-z]
 *.sw[a-p]
+pnpm-lock.yaml
