@@ -1,2 +1,2 @@
-Sitemap: http://wiki.play2go.cloud/sitemap.xml
+Sitemap: https://wiki.play2go.cloud/sitemap.xml
 User-agent: *
