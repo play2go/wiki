@@ -3,7 +3,7 @@ order: 1
 authors: ['envizar']
 ---
 
-# Список ядер
+# Ядра для Minecraft
 
 ## Ванильные ядра
 
