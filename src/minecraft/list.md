@@ -8,6 +8,8 @@ authors: ['envizar']
 ## Ванильные ядра
 
 - [Vanilla](https://getbukkit.org/download/vanilla) - самое обычное неоптимизированное ванильное ядро.
+- [CraftBukkit](https://getbukkit.org/download/craftbukkit) - одно из самых первых и самых старых ядер, поддерживающих Bukkit плагины. **Не рекомендуется** к использованию новыми серверами из-за отсутствия оптимизации и поддержки современных плагинов (поддерживаются только плагины, работающие на Bukkit, а не на Spigot/Paper).
+- [Spigot](https://getbukkit.org/download/spigot) -  форк CraftBukkit, добавляющий поддержку Spigot плагинов и прочую функциональность, которая настраиваема в файле `spigot.yml`. Аналогично **не рекомендуется** к использованию новыми серверами.
 - [Paper](https://papermc.io/software/paper) - оптимизированное ядро с поддержкой Spigot/Bukkit плагинов.
   Отличный выбор для тех, кто не знает, с чего начать.
 - [Purpur](https://purpurmc.org/) - форк Paper, то есть включает в себя поддержку всех оптимизаций Paper.
@@ -18,6 +20,8 @@ authors: ['envizar']
 
 ## Прокси ядра
 
+- [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) - самое старое прокси-ядро. Не рекомендуется для использования новыми серверами из-за его нестабильности и наличия уязвимостей.
+- [WaterFall](https://papermc.io/software/waterfall) - форк BungeeCord, направленный на улучшение стабильности и добавление нового функционала. На данный момент времени [не поддерживается разработчиками](https://forums.papermc.io/threads/1088/).
 - [Velocity](https://papermc.io/software/velocity) - прокси ядро нового поколения, что пришло на замену BungeeCord/Waterfall.
   Сделано разработчиками Paper и сильно рекомендуется к использованию.
 - [NullCordX](https://builtbybit.com/resources/nullcordx-lightweight-antibot.22322/) - **платное ядро** на основе Waterfall.
