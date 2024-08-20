@@ -20,6 +20,13 @@ authors:
 
 Настройка завершена, когда захотите выключить VPN, нажмите правой кнопкой мышки по профилю -> Stop и **не забудьте снять галочки с Tun Mode и System Proxy**.
 
+## Настройка для Linux
+:::warning :construction: Under construction...
+Этот раздел статьи ещё не написан.
+
+Вы можете помочь, [отправив необходимые изменения](https://github.com/play2go/wiki/blob/main/src/host/vpn.md) и сняв эту пометку (выставлено 21 августа 2024, первоначальный запрос на дописывание был отправлен 3 августа 2024).
+:::
+
 ## Настройка для Android
 
 1. Установите [V2rayNG](https://play.google.com/store/apps/details?id=com.v2ray.ang).
