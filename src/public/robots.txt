@@ -8,5 +8,8 @@ Disallow: /vds/
 
 # Ассеты и перенаправления
 User-agent: *
-Disallow: /public/
+Disallow: /assets/
+Disallow: /host/
+Disallow: /minecraft/
+Disallow: /contributing/
 Disallow: /docs/
