@@ -49,7 +49,7 @@ export default defineConfig({
 
   srcDir: "src",
   cleanUrls: true,
-  lastUpdated: false,
+  lastUpdated: true,
   sitemap: {
     hostname: "https://wiki.play2go.cloud",
   },
