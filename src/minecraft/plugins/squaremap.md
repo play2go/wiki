@@ -19,7 +19,7 @@ API этого плагина есть на GitHub, и благодаря нем
 :::
 
 1. Скачиваем плагин Squaremap с [Modrinth](https://modrinth.com/plugin/squaremap) для нужной вам версии;
-2. [Дальше выполняем действия из данной статьи](https://wiki.play2go.cloud/minecraft/installplugins).
+2. [Дальше выполняем действия из данной статьи](/minecraft/installplugins).
 
 ## Настройка
 
@@ -43,7 +43,7 @@ API этого плагина есть на GitHub, и благодаря нем
 #### Настройка Squaremap Skins
 
 1. Скачиваем архив со всеми аддонами с [GitHub](https://nightly.link/jpenilla/squaremap-addons/workflows/build/master/artifacts.zip);
-2. [Выполняем действия из данной статьи](https://wiki.play2go.cloud/minecraft/installplugins);
+2. [Выполняем действия из данной статьи](/minecraft/installplugins);
 3. Заходим в конфиг Squaremap (`~/plugins/squaremap/config.yml);
 4. Находим поле `heads-url: https://mc-heads.net/avatar/{uuid}/16` и изменяем его на `heads-url: http://localhost:{port}/skins/{name}.png`;
 5. Перезапускаем/Запускаем сервер;
@@ -52,7 +52,7 @@ API этого плагина есть на GitHub, и благодаря нем
 ## Остальные аддоны
 
 1. Скачиваем архив со всеми аддонами с [GitHub](https://nightly.link/jpenilla/squaremap-addons/workflows/build/master/artifacts.zip);
-2. [Выполняем действия из данной статьи](https://wiki.play2go.cloud/minecraft/installplugins).
+2. [Выполняем действия из данной статьи](/minecraft/installplugins).
 
 ## Команды Squaremap
 

@@ -18,7 +18,7 @@ Plan - это плагин и его название расшифровывае
 :::
 
 1. Скачиваем сам плагин с сайта [SpigotMC](https://www.spigotmc.org/resources/32536/);
-2. [Дальше выполняем действия из данной статьи](https://wiki.play2go.cloud/minecraft/installplugins).
+2. [Дальше выполняем действия из данной статьи](/minecraft/installplugins).
 
 ## Настройка
 

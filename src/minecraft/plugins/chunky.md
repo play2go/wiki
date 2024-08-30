@@ -7,7 +7,7 @@
 ## Установка
 
 1. [Скачиваем плагин](https://www.spigotmc.org/resources/chunky.81534/);
-2. [Дальше выполняем действия из данной статьи](https://wiki.play2go.cloud/minecraft/installplugins).
+2. [Дальше выполняем действия из данной статьи](/minecraft/installplugins).
 
 ## Особенности
 
