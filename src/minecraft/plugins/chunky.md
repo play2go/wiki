@@ -1,4 +1,4 @@
-# [Chunky](https://www.spigotmc.org/resources/chunky.81534/)
+# Chunky
 
 Предварительно генерирует чанки быстро, эффективно и безопасно.
 
