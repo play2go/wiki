@@ -19,6 +19,8 @@ authors:
 | Client 8 | AMD Ryzen 9 3900 | `212.80.7.208` | `c8.play2go.cloud` |
 | Client 9 | Intel Core I9-12900K | `212.80.7.209` | `c9.play2go.cloud` |
 | Client 10 | Intel Core I9-12900K | `212.80.9.210` | `c10.play2go.cloud` |
+| Client 11 | Ryzen 9 5950X | `212.80.7.211` | `c11.play2go.cloud` |
+| Client 12 | Ryzen 9 5950X | `212.80.7.212` | `c12.play2go.cloud` |
 | MySQL | - | `212.80.7.35` | `mysql.play2go.cloud` |
 
 Узнать IP можно командой `nslookup ДОМЕН 8.8.8.8` (если информация находящаяся здесь неактуальна)
