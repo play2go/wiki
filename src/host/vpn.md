@@ -11,7 +11,7 @@ authors:
 
 Мы используем Marzban (VMess, VLESS, Shadowsocks).
 
-## Настройка для Windows
+## Настройка для Windows/Linux
 
 1. Установите [Nekoray](https://github.com/MatsuriDayo/nekoray/releases).
 2. Скопируйте выбранную вами ссылку VPN (`vmess://`, `vless://`, `ss://`), они будут выданы вам после покупки.
@@ -19,14 +19,6 @@ authors:
 4. Нажмите правой кнопкой мышки по профилю VPN -> Start, потом включите опции Tun Mode или System Proxy.
 
 Настройка завершена, когда захотите выключить VPN, нажмите правой кнопкой мышки по профилю -> Stop и **не забудьте снять галочки с Tun Mode или System Proxy**.
-
-## Настройка для Linux
-
-:::warning :construction: Under construction...
-Этот раздел статьи ещё не написан.
-
-Вы можете помочь, [отправив необходимые изменения](https://github.com/play2go/wiki/blob/main/src/host/vpn.md) и сняв эту пометку (выставлено 21 августа 2024, первоначальный запрос на дописывание был отправлен 3 августа 2024).
-:::
 
 ## Настройка для Android
 
