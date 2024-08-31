@@ -16,7 +16,7 @@ authors:
 1. Установите [Nekoray](https://github.com/MatsuriDayo/nekoray/releases).
 2. Скопируйте выбранную вами ссылку VPN (`vmess://`, `vless://`, `ss://`), они будут выданы вам после покупки.
 3. В приложении нажмите Program -> Add profile from clipboard.
-4. Нажмите правой кнопкой мышки по профилю VPN -> Start, потом включите опции Tun Mode или System Proxy.
+4. Нажмите правой кнопкой мышки по профилю VPN -> Start, потом включите опцию Tun Mode или System Proxy, дабы VPN-трафик могли использовать программы.
 
 Настройка завершена, когда захотите выключить VPN, нажмите правой кнопкой мышки по профилю -> Stop и **не забудьте снять галочки с Tun Mode или System Proxy**.
 
@@ -24,7 +24,7 @@ authors:
 
 1. Установите [V2rayNG](https://play.google.com/store/apps/details?id=com.v2ray.ang).
 2. Скопируйте выбранную вами ссылку VPN (`vmess://`, `vless://`, `ss://`), они будут выданы вам после покупки.
-3. Нажимаем на кнопку Плюс **+** сверху.
+3. Нажмите на кнопку Плюс **+** сверху.
 ![ПлюсКнопка V2rayNG](/host/vpn/v2rayplus.jpg)
 4. Нажмите на кнопку "Импорт из буфера обмена".
 ![Вставка V2rayNG](/host/vpn/v2rayclip.jpg)
