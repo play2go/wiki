@@ -1,6 +1,8 @@
 ---
 order: 1
-authors: ['envizar']
+authors:
+  - envizar
+  - SimonSays2310
 ---
 
 # Ядра для Minecraft
