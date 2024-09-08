@@ -3,6 +3,7 @@ order: 10
 authors:
   - sxnrisinq
 ---
+
 # (CODING) Как установить библиотеки на Python
 
 ## Первый способ:
