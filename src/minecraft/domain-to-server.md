@@ -14,7 +14,7 @@ authors:
 
 Priority - 0.
 
-Weight - 0 (если не работает - поставьте Weight 5)
+Weight - 0
 
 В поле Port введите порт вашего сервера.
 
