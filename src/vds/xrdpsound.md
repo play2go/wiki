@@ -4,7 +4,6 @@ authors:
   - SimonSays2310
 ---
 
-<!-- markdownlint-disable MD029 -->
 <!-- Источник: https://c-nergy.be/blog/?p=17734 -->
 
 # Поддержка звука в xRDP

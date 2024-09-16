@@ -4,8 +4,6 @@ authors:
   - SimonSays2310
 ---
 
-<!-- markdownlint-disable MD029 -->
-
 # Установка и настройка xRDP
 
 ## Что это?
