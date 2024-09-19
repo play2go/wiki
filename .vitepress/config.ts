@@ -32,6 +32,9 @@ export default defineConfig({
       exclude: ["vitepress"],
     },
     plugins: [UnoCSS()],
+
+    // SCSS deprecation warning fix
+    css: { scss: { api: 'modern-compiler' } }
   },
   markdown: {
     config(md) {
