@@ -34,7 +34,7 @@ export default defineConfig({
     plugins: [UnoCSS()],
 
     // SCSS deprecation warning fix
-    css: { scss: { api: 'modern-compiler' } }
+    css: { preprocessorOptions: { scss: { api: 'modern-compiler' } } }
   },
   markdown: {
     config(md) {
