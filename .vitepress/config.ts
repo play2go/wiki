@@ -46,7 +46,7 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/assets/p2g-wiki-logo.svg" }]],
 
   lang: "ru-RU",
-  title: "База знаний play2go",
+  title: "База знаний Play2GO",
   description:
     "Вики с большим количеством полезной информации для пользователей play2go.cloud",
 

@@ -8,7 +8,7 @@ head:
       content: https://lucide.dev/
 
 hero:
-  name: "База знаний play2go"
+  name: "База знаний Play2GO"
   tagline: "Вся полезная информация для клиентов хостинга, собранная в одном месте и которую может править каждый"
   image: 
     dark: '/assets/p2g-wiki-logo.svg'
