@@ -13,4 +13,7 @@ CONTRIBUTING.md @SimonSays2310
 LICENSE.md @SimonSays2310
 README.md @SimonSays2310
 
-/src/ @SimonSays2310
+/src/host/ @SimonSays2310
+/src/minecraft/ @SimonSays2310
+/src/public/ @SimonSays2310
+/src/vds/ @SimonSays2310
