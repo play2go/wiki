@@ -3,7 +3,7 @@ order: 3
 authors:
   - envizar
   - SimonSays2310
-  - sharikfi
+  - Sharikfi
 ---
 
 # Часто задаваемые вопросы
