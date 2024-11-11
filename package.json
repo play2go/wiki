@@ -2,7 +2,7 @@
   "type": "module",
   "devDependencies": {
     "@unocss/preset-attributify": "^0.62.4",
-    "@unocss/transformer-directives": "^0.62.4",
+    "@unocss/transformer-directives": "^0.64.0",
     "@unocss/transformer-variant-group": "^0.62.4",
     "sass": "^1.79.3",
     "unocss": "^0.62.4",
