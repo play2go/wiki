@@ -29,3 +29,5 @@ npm i && npm run build
 2. [SimonSays2310](https://github.com/SimonSays2310) (также является куратором хостинга)
 
 3. [s3nkwr](https://github.com/s3nkwr) (также является поддержкой хостинга)
+
+4. [Sharikfi](https://github.com/Sharikfi) (также является поддержкой хостинга)
