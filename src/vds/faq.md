@@ -33,17 +33,20 @@ authors:
 
 Выдача выделенных серверов осуществляется в ручном режиме, и может занимать до 48 часов.
 
-## "You have benn disconnected because another connection was made to the remote РС."
+## "You have been disconnected because another connection was made to the remote РС."
 
-Чаще всего это ошибка `0x516` с расширеным кодом ошибки `0x0`, она онзачает что: \
-У вас не настроен лимит сессий для RDP, и уже кто-то подключен к вашему серверу. \
-Вы можете перезагрузить VDS/Выделенный сервер, и убрать этот параметр. \
-Чтобы выполнить это, вы нажать комбинацтю клавиш Win+R, написать `gpedit.msc`, перейти в `Computer Configuration > Administrative Templates > Windows Components > Remote Desktop Services > Remote Desktop Session host > Connections`, найти `Limit number of connections`, нажать по политике 2 раза левой кнопкой мыши, выбрать `Enabled` в открывшемся окне, и установить нужное вам кол-во подключений.
+Чаще всего это ошибка `0x516` с расширенным кодом ошибки `0x0`, она онзачает что у вас не настроен лимит сессий для RDP, и уже кто-то подключен к вашему серверу.
+
+Для решения этой проблемы вы можете перезагрузить VDS/выделенный сервер, и убрать этот параметр.
+
+Чтобы выполнить это, нажмите комбинацию клавиш Win+R, напишите `gpedit.msc`, перейдите в `Computer Configuration > Administrative Templates > Windows Components > Remote Desktop Services > Remote Desktop Session host > Connections`, найдите `Limit number of connections`, нажмите по политике 2 раза левой кнопкой мыши, выберите `Enabled` в открывшемся окне, и установите нужное вам кол-во подключений.
+
 ![Фото-Инструкция](/vds/faq/gpedit.png)
-\
-Далее найдите `Restrict Remote Desktop Services users to a single Remote Desktop Services session`, нажмите по политике 2 раза левой кнопкой мыши, выбрать `Disabled`, перезагрузите VDS/Выделенный сервер, что-бы применить изменения.
+
+Далее найдите `Restrict Remote Desktop Services users to a single Remote Desktop Services session`, нажмите по политике 2 раза левой кнопкой мыши, выберите `Disabled`, перезагрузите VDS/выделенный сервер, чтобы применить изменения.
+
 ![Фото-Инструкция 2](/vds/faq/rrds.png)
 
 :::info :exclamation: Важно
-Если вы не уверены что вашу VDS/Выделенный сервер не взломали, смените пароль, что-бы он был длиною от 16 символов.
+Если вы не уверены что вашу VDS/Выделенный сервер не взломали, смените пароль, чтобы он был длиною от 16 символов.
 :::

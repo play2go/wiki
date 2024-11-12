@@ -21,7 +21,7 @@ const sidebar = generateSidebar(
   [
     { path: "host", title: "Хостинг" },
     { path: "minecraft", title: "Minecraft" },
-    { path: "vds", title: "VDS/Deadicated" },
+    { path: "vds", title: "VDS/Dedicated" },
   ].map((entry) => generateSidebarEntry(entry.path, entry.title))
 );
 
@@ -129,7 +129,7 @@ export default defineConfig({
       { text: "Главная", link: "/" },
       { text: "Хостинг", link: "/host/", activeMatch: "host/*" },
       { text: "Minecraft", link: "/minecraft/", activeMatch: "minecraft/*" },
-      { text: "VDS/Deadicated", link: "/vds/", activeMatch: "vds/*" },
+      { text: "VDS/Dedicated", link: "/vds/", activeMatch: "vds/*" },
     ],
 
     sidebar,
