@@ -4,7 +4,7 @@
     "@unocss/preset-attributify": "^0.64.0",
     "@unocss/transformer-directives": "^0.64.0",
     "@unocss/transformer-variant-group": "^0.64.0",
-    "sass": "^1.79.3",
+    "sass": "^1.80.6",
     "unocss": "^0.64.0",
     "vitepress": "^1.5.0",
     "vitepress-plugin-tabs": "^0.5.0",
