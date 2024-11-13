@@ -5,7 +5,7 @@
 # Технические файлы
 /.vitepress/ @SimonSays2310 @envizar
 /src/index.md @SimonSays2310 @envizar
-package.json @SimonSays2310 @envizar
+package.json @SimonSays2310
 uno.config.ts @envizar
 /.github/ @SimonSays2310
 .markdownlint.yml @SimonSays2310
