@@ -1,15 +1,6 @@
 Sitemap: https://wiki.play2go.cloud/sitemap.xml
 
-# По причине засера выдачи (при гуглении ника автора отображаются все статьи где он принимал участие, лично мне такое нахер не надо)
-User-agent: *
-Disallow: /host/
-Disallow: /minecraft/
-Disallow: /vds/
-
 # Ассеты и перенаправления
 User-agent: *
 Disallow: /assets/
-Disallow: /host/
-Disallow: /minecraft/
-Disallow: /contributing/
 Disallow: /docs/
