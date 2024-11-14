@@ -2,14 +2,17 @@
 order: 13
 authors:
   - SimonSays2310
+  - Sharikfi
 ---
 
 # Как привязать Discord?
 
+1. Зайдите в, настройки аккаунта -> Интеграции -> Discord -> Привязать
+
 ![Step 1](/host/howtolink/1.png)
 
-![Step 2](/host/howtolink/2.png)
+2. Авторизируйте бота в вашем аккаунте
 
-![Step 3](/host/howtolink/3.png)
+![Step 2](/host/howtolink/2.png)
 
 Если Discord не привязался несмотря на появление сообщения о успешной привязке, обратитесь в тикет.
