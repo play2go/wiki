@@ -1,7 +1,6 @@
 ---
 order: 7
 authors: 
-  - s3nkwr
   - envizar
   - SimonSays2310
   - Timtaran
