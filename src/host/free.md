@@ -1,6 +1,6 @@
 ---
 order: 7
-authors: 
+authors:
   - envizar
   - SimonSays2310
   - Timtaran
