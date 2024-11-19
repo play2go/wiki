@@ -51,6 +51,6 @@ authors:
 Если вы не уверены что ваш VDS/выделенный сервер не взломали, смените пароль, чтобы он был длиною от 16 символов.
 :::
 
-## Как подключится к серверу?
+## Установление соединения с сервером
 
-Вы можете прочитать подробнее о том как подкючиться к серверу в этик статьях: [Windows / Windows Server](https://wiki.play2go.cloud/vds/rdp), [Linux](https://wiki.play2go.cloud/vds/ssh)
+Подробная информация об установлении соединения с сервером приведена в следующих статьях: Windows / Windows Server (https://wiki.play2go.cloud/vds/rdp), Linux (https://wiki.play2go.cloud/vds/ssh)
