@@ -2,7 +2,6 @@
 node_modules
 .vitepress/cache
 .vitepress/dist
-package-lock.json
 
 # Конфигурационные файлы от редакторов .md файлов
 .idea
