@@ -6,6 +6,7 @@
 /.vitepress/ @SimonSays2310 @envizar
 /src/index.md @SimonSays2310 @envizar
 package.json @SimonSays2310
+package-lock.json @SimonSays2310
 uno.config.ts @envizar
 /.github/ @SimonSays2310
 .markdownlint.yml @SimonSays2310
@@ -15,6 +16,7 @@ CONTRIBUTING.md @SimonSays2310
 LICENSE.md @SimonSays2310
 README.md @SimonSays2310
 
+# Коллабораторам: не стесняйтесь добавлять тут свой юзернейм, если хотите автоматически быть в ревьюверах тех или иных статей
 /src/host/ @SimonSays2310
 /src/minecraft/ @SimonSays2310
 /src/public/ @SimonSays2310
