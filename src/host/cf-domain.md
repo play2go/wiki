@@ -6,8 +6,6 @@ authors:
 
 # Подключение домена к Cloudflare
 
-[[toc]]
-
 Для использования Cloudflare с вашим доменом, войдите в панель управления Cloudflare и нажмите "Add a Domain".
 
 ![add](/host/domain/1.png)
