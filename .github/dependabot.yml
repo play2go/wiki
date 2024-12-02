@@ -7,7 +7,6 @@ updates:
     schedule:
       interval: "daily"
     versioning-strategy: "increase-if-necessary"
-    rebase-strategy: "disabled"
     commit-message:
       prefix: "[ci-skip] "
     groups:
