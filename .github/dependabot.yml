@@ -10,3 +10,9 @@ updates:
     rebase-strategy: "disabled"
     commit-message:
       prefix: "[ci-skip] "
+    groups:
+      unocss:
+        applies-to: version-updates
+        patterns:
+        - "@unocss*"
+        - "unocss"
