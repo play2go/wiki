@@ -8,7 +8,7 @@
     "unocss": "^0.65.0",
     "vitepress": "~1.5.0",
     "vitepress-plugin-tabs": "~0.5.0",
-    "vitepress-sidebar": "~1.29.0",
+    "vitepress-sidebar": "~1.30.0",
     "vue": "~3.5.13",
     "markdownlint-cli": "^0.43.0"
   },
