@@ -53,4 +53,4 @@ authors:
 
 ## Как подключиться к серверу?
 
-Вы можете прочитать подробнее о том как подключиться к серверу в этих статьях: [Windows/Windows Server](https://wiki.play2go.cloud/vds/rdp), [Linux](https://wiki.play2go.cloud/vds/ssh)
+Вы можете прочитать подробнее о том как подключиться к серверу в этих статьях: [Windows Server](https://wiki.play2go.cloud/vds/rdp), [Linux](https://wiki.play2go.cloud/vds/ssh)
