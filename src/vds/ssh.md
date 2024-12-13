@@ -37,7 +37,7 @@ authors:
 
 1. Скачайте PuTTY по [этой](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) ссылке;
 :::info Обратите внимание
-Для установки PuTTY на Linux (Debian), введите в терминале команду `apt update && apt install putty` (однако с большей долей вероятности вам он не нужен, достаточно способа подключения через терминал).
+Для установки PuTTY на Linux (Ubuntu/Debian), введите в терминале команду `apt update && apt install putty` (однако с большей долей вероятности вам он не нужен, достаточно способа подключения через терминал).
 :::
 2. В строке "Host Name (or IP address)" введите IP адрес Вашей VDS;
 3. Дальше введите имя пользователя;
