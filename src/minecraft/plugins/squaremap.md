@@ -12,7 +12,7 @@ API этого плагина есть на GitHub, и благодаря нем
 
 ## [Демо Squaremap](https://squaremap-demo.jpenilla.xyz/)
 
-## Установка
+## Установка {#install}
 
 :::info Заметка
 Плагин требует дополнительный порт!
@@ -21,7 +21,7 @@ API этого плагина есть на GitHub, и благодаря нем
 1. Скачиваем плагин Squaremap с [Modrinth](https://modrinth.com/plugin/squaremap) для нужной вам версии;
 2. [Дальше выполняем действия из данной статьи](/minecraft/installplugins).
 
-## Настройка
+## Настройка {#setup}
 
 1. После установки плагина надо изменить конфиг, чтобы вебкарта заработала. Заходим в `~/plugins/squaremap/config.yml`;
 2. Находим `port:8080` и меняем `8080` на тот порт, который имеется во вкладке Network (не Primary). Пример: `port:20347`;
@@ -32,7 +32,7 @@ API этого плагина есть на GitHub, и благодаря нем
 4. Перезапускаем/Запускаем сервер;
 5. Плагин настроен!
 
-## Аддоны Squaremap
+## Аддоны Squaremap {#addons}
 
 ### Squaremap Skins
 
@@ -49,12 +49,12 @@ API этого плагина есть на GitHub, и благодаря нем
 5. Перезапускаем/Запускаем сервер;
 6. Аддон установлен!
 
-## Остальные аддоны
+## Остальные аддоны {#other-addons}
 
 1. Скачиваем архив со всеми аддонами с [GitHub](https://nightly.link/jpenilla/squaremap-addons/workflows/build/master/artifacts.zip);
 2. [Выполняем действия из данной статьи](/minecraft/installplugins).
 
-## Команды Squaremap
+## Команды Squaremap {#squaremap-settings}
 
 :::tip :gear: Параметры
 `<>` - обязательный параметр.

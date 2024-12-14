@@ -6,7 +6,7 @@ authors:
 
 # Как подключиться к VDS по SSH
 
-## Через командную строку/терминал
+## Через командную строку/терминал {#terminal}
 
 1. Откройте "Командную строку Windows" (на MacOS/Linux это "Терминал");
 2. Введите туда `ssh (имя пользователя, по стандарту это "root")@(IP адрес Вашей VDS)`;
@@ -21,7 +21,7 @@ authors:
 Если у вас Linux, то введите в терминале `apt update && apt install openssh-client`.
 :::
 
-## Через Termius
+## Через Termius {#termius}
 
 1. Скачайте Termius по [этой](https://termius.com/download/) ссылке;
 2. После загрузки зарегистрируйтесь в этой программе;
@@ -33,7 +33,7 @@ authors:
 8. Если надо, нажмите на "+ Password, Key, Certificate, FIDO2", выберите "Password" и введите туда ваш пароль от VDS;
 9. Нажмите "Connect" (если надо, ещё раз введите пароль) и готово!
 
-## Через PuTTY
+## Через PuTTY {#putty}
 
 1. Скачайте PuTTY по [этой](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) ссылке;
 :::info Обратите внимание

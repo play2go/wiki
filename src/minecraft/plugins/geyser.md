@@ -5,11 +5,11 @@ authors:
 
 # Geyser: Bukkit
 
-## Что это такое?
+## Что это такое? {#what}
 
 Geyser — это мост между Java и Bedrock версиями майнкрафта. Он позволяет игрокам с Bedrock подключаться на Java. Есть несколько версий Geyser, но в этой статье будет затронута только его Bukkit версия.
 
-## Установка и настройка плагина Geyser
+## Установка и настройка плагина Geyser {#install-and-setup}
 
 :::info Заметка
 Плагин требует дополнительный порт!
@@ -38,7 +38,7 @@ remote:
 
 [Для более расширенной настройки, обратитесь к вики Geyser](https://wiki.geysermc.org/geyser/understanding-the-config/)
 
-## Использование Geyser с Floodgate
+## Использование Geyser с Floodgate {#floodgate}
 
 Floodgate — это дополнение к Geyser, которое позволяет игрокам Bedrock Edition подключаться к серверам Java Edition с Geyser, не имея аккаунта Xbox. Это особенно полезно, если на сервере используется оффлайн-режим.
 

@@ -9,7 +9,7 @@ LiveAtlas это проект JLyne, нацеленный на улучшени�
 
 LiveAtlas сделан на [Vue.js](https://github.com/vuejs/core) и [TypeScript](https://www.typescriptlang.org).
 
-## Установка для Dynmap
+## Установка для Dynmap {#dynmap}
 
 :::warning :warning: Обратите внимание
 Этот пункт **только** для установки на Dynmap.
@@ -23,7 +23,7 @@ LiveAtlas сделан на [Vue.js](https://github.com/vuejs/core) и [TypeScri
 5. Убираем веб CDN кеш. Если не знаете что это такое, то не убирайте;
 6. LiveAtlas для Dynmap установлен.
 
-## Установка для Squaremap
+## Установка для Squaremap {#squaremap}
 
 1. Скачиваем архив с файлами LiveAtlas. [GitHub](https://github.com/JLyne/LiveAtlas/releases/latest)
 2. Распаковываем его в папку `~/plugins/Squaremap/web` вашего сервера;
@@ -57,7 +57,7 @@ LiveAtlas сделан на [Vue.js](https://github.com/vuejs/core) и [TypeScri
 8. Убираем веб CDN кеш;
 9. LiveAtlas для Squaremap установлен.
 
-## Установка для прокси (Nginx)
+## Установка для прокси (Nginx) {#nginx}
 
 1. Следуйте гайдам [Dynmap](https://github.com/webbukkit/dynmap/wiki/External-Webserver-Basics) или [Squaremap](https://github.com/jpenilla/squaremap/wiki/Internal-vs-External-Web-Server#external-server), если надо;
 2. Скачиваем архив с файлами LiveAtlas. [GitHub](https://github.com/JLyne/LiveAtlas/releases/latest)
@@ -67,7 +67,7 @@ LiveAtlas сделан на [Vue.js](https://github.com/vuejs/core) и [TypeScri
 :::tip Совет
 
 - Для Dynmap конфигурация не требуется.
-- Для Squaremap, следуйте этому [гайду](#установка-для-squaremap).
+- Для Squaremap, следуйте этому [гайду](#squaremap).
 - Для конфигурации с множеством серверов следуйте этому [гайду](https://github.com/JLyne/LiveAtlas/wiki/Configuring-Multiple-Servers).
 
 :::
