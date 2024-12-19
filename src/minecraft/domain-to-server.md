@@ -17,8 +17,8 @@ authors:
 
 ::: info Пример
 Привязка `120.120.120.120` к `srv.example.com`
-<ThemedImg
-    dark="/minecraft/domain/a-record-dark.png"
+<AImg
+    src="/minecraft/domain/a-record-dark.png"
     light="/minecraft/domain/a-record-light.png"
     alt="A Record"
 />
@@ -33,8 +33,8 @@ authors:
 
 ::: info Пример
 Привязка `c1.play2go.cloud:54321` к `play.example.com`
-<ThemedImg
-    dark="/minecraft/domain/srv-record-dark.png"
+<AImg
+    src="/minecraft/domain/srv-record-dark.png"
     light="/minecraft/domain/srv-record-light.png"
     alt="SRV Record"
 />
