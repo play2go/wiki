@@ -9,10 +9,10 @@ authors:
 
 1. Зайдите в настройки аккаунта -> Интеграции -> Discord -> Привязать
 
-![Step 1](/host/howtolink/1.png)
+<AImg src="/host/howtolink/1.png" alt="Step 1"/>
 
 2. Авторизуйте бота в вашем аккаунте
 
-![Step 2](/host/howtolink/2.png)
+<AImg src="/host/howtolink/2.png" alt="Step 2"/>
 
 Если Discord не привязался несмотря на появление сообщения о успешной привязке, обратитесь в тикет.
