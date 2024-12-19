@@ -6,7 +6,7 @@ authors:
 
 # Running Installer
 
-![Running Installer](/host/running-installer.png)
+<AImg src="/host/running-installer.png" alt="Running Installer"/>
 
 Если же вы видите сообщение **"Running Installer"** сразу же после создания сервера, то это нормально, и необходимо просто подождать, когда сервер установит все необходимые библиотеки.
 
