@@ -23,9 +23,9 @@ http {
 Однако если же у вас его нет, то можно поступить по другому, добавив домен в Cloudflare и сделав следующие шаги:
 
 1. Создаём DNS запись, которая ведёт на вашу ноду;
-   ![](/minecraft/origin/1.png)
+   <AImg src="/minecraft/origin/1.png"/>
 2. Заходим в Origin Rules;
-   ![](/minecraft/origin/2.png)
+   <AImg src="/minecraft/origin/2.png"/>
 3. Создаём новое правило с любым названием и заполняем как на скриншоте;
-   ![](/minecraft/origin/3.png)
+   <AImg src="/minecraft/origin/3.png"/>
 4. Нажимаем Deploy и после чего пробуем заходить.
