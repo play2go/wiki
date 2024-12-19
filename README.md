@@ -24,10 +24,10 @@ npm i && npm run build
 
 ## К кому можно обращаться за проверкой пулл реквестов/по прочим вопросам? (список коллабораторов репозитория)
 
-1. [SimonSays2310](https://github.com/SimonSays2310) (также является куратором хостинга)
+1. [SimonSays2310](https://github.com/SimonSays2310) (куратор хостинга, статьи + тех.часть)
 
-2. [envizar](https://github.com/envizar) (обращаться по техническим вопросам)
+2. [envizar](https://github.com/envizar) (тех.часть)
 
-3. [s3nkwr](https://github.com/s3nkwr) (также является поддержкой хостинга)
+3. [s3nkwr](https://github.com/s3nkwr) (поддержка хостинга, статьи)
 
-4. [Sharikfi](https://github.com/Sharikfi) (также является поддержкой хостинга)
+4. [Sharikfi](https://github.com/Sharikfi) (поддержка хостинга, статьи + тех.часть)
