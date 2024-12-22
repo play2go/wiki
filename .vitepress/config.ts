@@ -53,7 +53,7 @@ export default defineConfig({
   srcDir: "src",
   cleanUrls: true,
   lastUpdated: false,
-  appearance: "dark",
+  appearance: "force-dark",
   sitemap: {
     hostname: "https://wiki.play2go.cloud",
   },
