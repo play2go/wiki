@@ -8,7 +8,7 @@ authors:
 
 1. Перейдите на сервер, в котором нужно подключить RCON;
 2. Перейдите на вкладку "Network" и нажмите "Create allocation";
-![Создание доп. порта](/minecraft/rcon/allocation-create.png)
+<AImg src="/minecraft/rcon/allocation-create.png" alt="Создание порта"/>
 3. Перейдите в `server.properties`;
 4. Найдите `rcon.password` и `rcon.port`;
 5. В ключе `rcon.password` придумайте пароль;

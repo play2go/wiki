@@ -6,7 +6,7 @@ authors:
 
 # "Открытый ключ профиля отсутствует. Для этого сервера требуются защищённые профили."
 
-![Ошибка](/minecraft/missingkey.png)
+<AImg src="/minecraft/missingkey.png" alt="Ошибка"/>
 
 Для исправления этой ошибки нужно заменить параметр `enforce-secure-profile` на `false` в server.properties, после чего перезапустить сервер.
 
