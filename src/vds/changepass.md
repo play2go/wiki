@@ -8,10 +8,10 @@ authors:
 
 Перейдите в меню "Пуск" и выберите `Windows Administrative Tools`.
 
-Или вы можете выполнить данное действие через "Выполнить" для этого:
-Нажмите сочетание клавиш Win + R, введите compmgmt.msc и нажмите OK.
+Также вы можете выполнить данное действие через "Выполнить", для этого нажмите сочетание клавиш Win + R, введите compmgmt.msc и нажмите OK.
 
 <AImg src="/vds/changepass/launch-ctrl.png" alt="Запустите панель управления"/>
+
 <AImg src="/vds/changepass/selectservice.png" alt="Запустите панель управления"/>
 
 После запуска `Computer Management`, выполните следующие шаги:
