@@ -59,7 +59,7 @@ export default defineConfig({
   },
 
   ignoreDeadLinks: [
-    /^https?:\/\/localhost/, 
+    /^https?:\/\/localhost/,
     /^https?:\/\/ваш-домен/
   ],
 
