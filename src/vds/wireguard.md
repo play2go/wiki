@@ -32,7 +32,7 @@ WireGuard заблокирован в Российской Федерации. �
   - Android: https://play.google.com/store/apps/details?id=org.amnezia.awg&hl=de
   - Windows: https://github.com/amnezia-vpn/amneziawg-windows-client
   - MacOS: https://apps.apple.com/pl/app/amneziawg/id6478942365
-  - Linux: в данный момент их нет
+  - Linux: в данный момент отсутствует
 :::
 
 1. Установите Wireguard: https://www.wireguard.com/install/
