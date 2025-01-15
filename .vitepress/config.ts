@@ -58,6 +58,11 @@ export default defineConfig({
     hostname: "https://wiki.play2go.cloud",
   },
 
+  ignoreDeadLinks: [
+    localhostLinks, 
+    /^https?:\/\/ваш-домен/
+  ],
+
   themeConfig: {
     footer: {
       message:
