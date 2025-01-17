@@ -19,20 +19,23 @@ authors:
 5. Приступите к [следующему шагу](#web).
 
 :::info :exclamation: Информация
-- Файлы Marzban будут размещены по адресу `/opt/marzban`. 
-- Файл конфигурации будет размещен по адресу `/opt/marzban/.env`. 
+
+- Файлы Marzban будут размещены по адресу `/opt/marzban`.
+- Файл конфигурации будет размещен по адресу `/opt/marzban/.env`.
 - Файлы с данными будут размещены по адресу `/var/lib/marzban`.
 :::
 
 ## Как попасть в саму панель? {#web}
 
 По соображениям безопасности, панель управления Marzban недоступна через IP-адрес. Есть два способа:
+
 1. Сделать перенаправление порта через SSH.
 2. Вам нужно получить SSL и купить домен, если у вас его нет.
 
 ### Для первого способа вам нужно:
+
 1. Сделать перенаправление порта: `ssh -L 8000:localhost:8000 user@serverip`. \
-   Для других SSH-клиентов: [SSH-туннелирование](/vds/sshtunnel) 
+   Для других SSH-клиентов: [SSH-туннелирование](/vds/sshtunnel)
 2. После можно будет попасть в панель через http://localhost:8000/dashboard/
 
 :::warning :warning: Внимание!
@@ -40,10 +43,12 @@ authors:
 :::
 
 ### Для второго способа нужно сделать данные шаги:
+
 1. Установить Socat: `apt install curl socat -y`
 2. Установить acme.sh, предварительно заменив `YOUR_EMAIL` на вашу почту: \
    `curl https://get.acme.sh | sh -s email=YOUR_EMAIL`
 3. После установки нужных программ, исполняем данную программу, не забыв заменить `YOUR_DOMAIN` на ваш домен:
+
 ```bash
 export DOMAIN=YOUR_DOMAIN
 
@@ -54,6 +59,7 @@ mkdir -p /var/lib/marzban/certs
 --fullchain-file "/var/lib/marzban/certs/$DOMAIN.cer" \
 --key-file "/var/lib/marzban/certs/$DOMAIN.cer.key"
 ```
+
 4. После можно будет попасть в панель через https://ваш-домен:8000/dashboard/
 
 ## Как установить Telegram бота? {#telegram}
