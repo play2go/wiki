@@ -1,0 +1,76 @@
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+                  120deg,
+                  #F66C81 30%,
+                  #DF1F48
+  );
+
+  --vp-home-hero-image-background-image: linear-gradient(
+                  -45deg,
+                  #DF1F48 50%,
+                  #F66C81 50%
+  );
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+
+a.icon::before {
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-right: 0.5em;
+}
+
+a.main-site::before {
+  background-image: url('/assets/p2g-logo.svg');
+  transform: translate(0, 4%);
+}
+
+a.book::before {
+  background-image: url('/assets/book-open.svg');
+  transform: scale(0.9, 0.9) translate(0, 30%);
+}
+
+a.ptero::before {
+  background-image: url('/assets/pterodactyl-logo.svg');
+  transform: scale(0.9, 0.9) translate(0, 30%);
+}
+
+a.discord::before {
+  background-image: url('/assets/discord-logo.svg');
+  transform: scale(0.9, 0.9) translate(0, 30%);
+}
+
+a.telegram::before {
+  background-image: url('/assets/telegram-logo.svg');
+  transform: scale(0.9, 0.9) translate(0, 30%);
+}
+
+a.pencil::before {
+  background-image: url('/assets/pencil-line.svg');
+  transform: scale(0.9, 0.9) translate(0, 30%);
+}
+
+.VPHero .VPImage {
+    transform: translate(-50%, -50%) scale(0.75, 0.75);
+}
+
+.logo {
+  border-radius: 0px;
+}

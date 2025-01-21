@@ -1,7 +1,7 @@
 // https://vitepress.dev/guide/custom-theme
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import './style.scss'
+import './style/base.scss'
 import 'virtual:uno.css'
 import Layout from "./Layout.vue"
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'

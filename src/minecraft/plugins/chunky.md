@@ -6,8 +6,8 @@
 
 ## Установка {#install}
 
-1. [Скачиваем плагин](https://www.spigotmc.org/resources/chunky.81534/);
-2. [Дальше выполняем действия из данной статьи](/minecraft/installplugins).
+1. Скачайте плагин с [официальной страницы](https://modrinth.com/plugin/chunky);
+2. Выполните действия из [данной статьи](/minecraft/installplugins).
 
 ## Особенности {#qualities}
 

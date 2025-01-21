@@ -8,7 +8,7 @@
  *
  * Each colors have exact same color scale system with 3 levels of solid
  * colors with different brightness, and 1 soft color.
- * 
+ *
  * - `XXX-1`: The most solid color used mainly for colored text. It must
  *   satisfy the contrast ratio against when used on top of `XXX-soft`.
  *
@@ -43,17 +43,15 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
-@import url(./home.scss);
-
 :root {
-  --vp-c-default-1: #f1f3f7;
-  --vp-c-default-2: #e5e9f1;
-  --vp-c-default-3: #d5d8e0;
-  --vp-c-default-soft: #a3afbb29;
+  --vp-c-default-1: #3c434b;
+  --vp-c-default-2: #2e333b;
+  --vp-c-default-3: #24272d;
+  --vp-c-default-soft: #48545f29;
 
-  --vp-c-brand-1: #e3203d;
-  --vp-c-brand-2: #df596d;
-  --vp-c-brand-3: #c03a4e;
+  --vp-c-brand-1: #ff546d;
+  --vp-c-brand-2: #dd485e;
+  --vp-c-brand-3: #bd2d42;
   --vp-c-brand-soft: #fb718524;
 
   --vp-c-tip-1: var(--vp-c-brand-1);
@@ -71,28 +69,15 @@
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
 
-  --vp-c-tip-1: var(--vp-c-indigo-1);
-  --vp-c-tip-2: var(--vp-c-indigo-2);
-  --vp-c-tip-3: var(--vp-c-indigo-3);
-  --vp-c-tip-soft: var(--vp-c-indigo-soft);
+  --vp-c-info-1: var(--vp-c-indigo-1);
+  --vp-c-info-2: var(--vp-c-indigo-2);
+  --vp-c-info-3: var(--vp-c-indigo-3);
+  --vp-c-info-soft: var(--vp-c-indigo-soft);
 
   --vp-custom-block-tip-bg: var(--vp-c-tip-soft) !important;
   --vp-custom-block-tip-code-bg: var(--vp-c-tip-soft) !important;
 
 }
-
-.dark {
-  --vp-c-default-1: #3c434b;
-  --vp-c-default-2: #2e333b;
-  --vp-c-default-3: #24272d;
-  --vp-c-default-soft: #48545f29;
-
-  --vp-c-brand-1: #fb7185;
-  --vp-c-brand-2: #df596d;
-  --vp-c-brand-3: #c03a4e;
-  --vp-c-brand-soft: #fb718524;
-}
-
 /**
  * Colors: Background
  *
@@ -109,17 +94,10 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-c-bg: #ffffff;
-  --vp-c-bg-alt: #f6f6f7;
-  --vp-c-bg-elv: #f6f6f7;
-  --vp-c-bg-soft: #f6f6f7;
-}
-
-.dark {
   --vp-c-bg: #18181B;
   --vp-c-bg-alt: #141417;
-  --vp-c-bg-elv: #202127;
-  --vp-c-bg-soft: #202127;
+  --vp-c-bg-elv: #1B1B1E;
+  --vp-c-bg-soft: rgba(75, 75, 85, 0.15);
 }
 
 /**

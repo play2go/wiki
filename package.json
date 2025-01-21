@@ -1,4 +1,5 @@
 {
+  "name": "play2go-wiki",
   "type": "module",
   "devDependencies": {
     "@unocss/preset-attributify": "65.4.2",

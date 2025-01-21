@@ -9,16 +9,16 @@ authors:
 
 Geyser — это мост между Java и Bedrock версиями майнкрафта. Он позволяет игрокам с Bedrock подключаться на Java. Есть несколько версий Geyser, но в этой статье будет затронута только его Bukkit версия.
 
-## Установка и настройка плагина Geyser {#install-and-setup}
-
 :::info Заметка
 Плагин требует дополнительный порт!
 :::
 
+## Установка и настройка плагина Geyser {#install-and-setup}
+
 ### Шаг 1: Установка на сервер
 
-1. Скачайте [плагин](https://geysermc.org/download);
-2. [Дальше выполняем действия из данной статьи](/minecraft/installplugins).
+1. Скачайте плагин с [официального сайта](https://geysermc.org/download);
+2. Выполните действия из [данной статьи](/minecraft/installplugins).
 
 ### Шаг 2: Настройка плагина Geyser
 
@@ -36,7 +36,7 @@ remote:
   auth-type: online
 ```
 
-[Для более расширенной настройки, обратитесь к вики Geyser](https://wiki.geysermc.org/geyser/understanding-the-config/)
+Для более расширенной настройки, обратитесь к [вики Geyser](https://wiki.geysermc.org/geyser/understanding-the-config/).
 
 ## Использование Geyser с Floodgate {#floodgate}
 

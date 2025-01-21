@@ -11,7 +11,7 @@ LiveAtlas сделан на [Vue.js](https://github.com/vuejs/core) и [TypeScri
 
 ## Установка для Dynmap {#dynmap}
 
-:::warning :warning: Обратите внимание
+:::warning Обратите внимание
 Этот пункт **только** для установки на Dynmap.
 Не подходит к другим плагинам.
 :::

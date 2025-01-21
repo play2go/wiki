@@ -1,7 +1,6 @@
 import { defineConfig } from "vitepress";
 import UnoCSS from "unocss/vite";
 import { generateSidebar } from "vitepress-sidebar";
-import type MarkdownIt from 'markdown-it';
 import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
 
 function generateSidebarEntry(path: string, title: string) {
@@ -38,19 +37,19 @@ export default defineConfig({
     css: { preprocessorOptions: { scss: { api: 'modern-compiler' } } }
   },
   markdown: {
-    config: (md: MarkdownIt) => {
+    config: md => {
       // @ts-ignore
       md.use(tabsMarkdownPlugin);
 
       // ![]() -> AImg
-      md.renderer.rules.image = (tokens, idx, options, env, self) => {
+      md.renderer.rules.image = (tokens, idx) => {
         const token = tokens[idx];
         const src = token.attrGet('src') || '';
         const alt = token.content;
         const title = token.attrGet('title') || '';
 
         // Используем наш компонент AImg
-        return `<AImg src="${src}" alt="${alt}" caption="${title}" />`;
+        return `<AImg src="${src}" alt="${alt}" />`;
       };
     },
   },
@@ -80,9 +79,9 @@ export default defineConfig({
       message:
         'Выпущено под <a href="https://github.com/play2go/wiki/blob/main/LICENSE.md">лицензией CC BY-NC-SA 4.0</a>.',
       copyright:
-        "© 2023 - " +
+        "&copy; 2023 - " +
         new Date().getFullYear() +
-        '. <a href="https://play2go.cloud">PLAY2GO LTD</a>',
+        '. <a href="https://play2go.cloud">PLAY2GO LLC</a>',
     },
 
     notFound: {

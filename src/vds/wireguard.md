@@ -18,7 +18,7 @@ authors:
 3. Со своими параметрами: `sudo bash wireguard.sh`
 4. Теперь вы установили Wireguard. Чтобы добавить еще пользователей, вам нужно запустить скрипт еще раз.
 
-:::warning :warning: Устранение неполадок
+:::tip Устранение неполадок
 
 1. Если у вас нет `wget`, то можно использовать `curl`: `curl -fL -o wireguard.sh https://get.vpnsetup.net/wg`
 2. Альтернативные ссылки, если текущая недоступна: \
@@ -28,13 +28,13 @@ authors:
 
 ## Как использовать его?
 
-:::warning :warning: Внимание
-WireGuard заблокирован в Российской Федерации. Чтобы он заработал нужно использовать клиент AmneziaWG.
+:::warning Внимание
+WireGuard заблокирован в России. Чтобы он заработал, нужно использовать клиент AmneziaWG.
 
 - Android: https://play.google.com/store/apps/details?id=org.amnezia.awg&hl=de
 - Windows: https://github.com/amnezia-vpn/amneziawg-windows-client
 - MacOS: https://apps.apple.com/pl/app/amneziawg/id6478942365
-- Linux: в данный момент отсутствует
+- Linux: на данный момент отсутствует
 :::
 
 1. Установите Wireguard: https://www.wireguard.com/install/

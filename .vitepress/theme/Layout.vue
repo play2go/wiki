@@ -4,9 +4,7 @@ import PageInfo from "./components/PageInfo.vue";
 import {useData} from "vitepress";
 import { useWindowSize } from '@vueuse/core'
 
-
-const { width, height } = useWindowSize()
-
+const { width } = useWindowSize()
 const { Layout } = DefaultTheme
 const { frontmatter } = useData()
 </script>
