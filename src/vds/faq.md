@@ -18,7 +18,7 @@ authors:
 
 Перейдите в [панель управления](https://vm.play2go.cloud), найдите нужный вам VDS сервер, нажмите три точки, "Change password", введите нужный вам пароль и нажмите "Save".
 
-<AImg src="/vds/faq/pwd.png" alt="Смена пароля"/>
+![Смена пароля](/vds/faq/pwd.png)
 
 :::info :exclamation: Важно
 Пароль для Windows Server должен быть от 16 символов.
@@ -41,11 +41,11 @@ authors:
 
 Чтобы это сделать, нажмите комбинацию клавиш Win+R, напишите `gpedit.msc`, перейдите в `Computer Configuration > Administrative Templates > Windows Components > Remote Desktop Services > Remote Desktop Session host > Connections`, найдите `Limit number of connections`, нажмите по политике 2 раза левой кнопкой мыши, выберите `Enabled` в открывшемся окне, и установите нужное вам кол-во подключений.
 
-<AImg src="/vds/faq/gpedit.png" alt="Step 1"/>
+![Step 1](/vds/faq/gpedit.png)
 
 Далее найдите `Restrict Remote Desktop Services users to a single Remote Desktop Services session`, нажмите по политике 2 раза левой кнопкой мыши, выберите `Disabled`, перезагрузите VDS/выделенный сервер, чтобы применить изменения.
 
-<AImg src="/vds/faq/rrds.png" alt="Step 2"/>
+![Step 2](/vds/faq/rrds.png)
 
 :::info :exclamation: Важно
 Если вы не уверены что ваш VDS/выделенный сервер не взломали, смените пароль, чтобы он был длиною от 16 символов.

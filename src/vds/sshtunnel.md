@@ -44,10 +44,10 @@ authors:
 
 В PuTTY туннелирование настраивается в `Connections -> SSH -> Tunnels`:
 
-<AImg src="/vds/sshtunnel/1.png" alt="PuTTY Tunnel"/>
+![PuTTY Tunnel](/vds/sshtunnel/1.png)
 
 Если вам также не нужна терминальная сессия, то в `Connections -> SSH` поставьте галочку у "Don't start shell or command at all":
 
-<AImg src="/vds/sshtunnel/2.png" alt="No shell"/>
+![No shell](/vds/sshtunnel/2.png)
 
 После выполнения настройки подключайтесь как обычно нажатием кнопки "Open".

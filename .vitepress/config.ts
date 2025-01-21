@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 import UnoCSS from "unocss/vite";
 import { generateSidebar } from "vitepress-sidebar";
+import type MarkdownIt from 'markdown-it';
 import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
 
 function generateSidebarEntry(path: string, title: string) {
@@ -37,9 +38,20 @@ export default defineConfig({
     css: { preprocessorOptions: { scss: { api: 'modern-compiler' } } }
   },
   markdown: {
-    config(md) {
+    config: (md: MarkdownIt) => {
       // @ts-ignore
       md.use(tabsMarkdownPlugin);
+
+      // ![]() -> AImg
+      md.renderer.rules.image = (tokens, idx, options, env, self) => {
+        const token = tokens[idx];
+        const src = token.attrGet('src') || '';
+        const alt = token.content;
+        const title = token.attrGet('title') || '';
+
+        // Используем наш компонент AImg
+        return `<AImg src="${src}" alt="${alt}" caption="${title}" />`;
+      };
     },
   },
 

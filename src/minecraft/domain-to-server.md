@@ -17,7 +17,7 @@ authors:
 
 ::: info Пример
 Привязка `120.120.120.120` к `srv.example.com`
-<AImg src="/minecraft/domain/a-record.png" alt="A Record"/>
+![A Record](/minecraft/domain/a-record.png)
 :::
 
 ## Создание SRV-записи {#srv-record}
@@ -29,7 +29,7 @@ authors:
 
 ::: info Пример
 Привязка `c1.play2go.cloud:54321` к `play.example.com`
-<AImg src="/minecraft/domain/srv-record.png" alt="SRV Record"/>
+![SRV Record](/minecraft/domain/srv-record.png)
 :::
 
 ## :warning: Важный момент {#important-notice}

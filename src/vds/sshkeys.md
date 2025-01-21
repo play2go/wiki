@@ -64,7 +64,7 @@ authors:
 
 3. Откройте PuTTY и зайдите в Auth, после чего выберите ваш приватный ключ кнопкой "Browse" (поддерживается только `ppk` формат, который вы сгенерировали через PuTTYgen).
 
-<AImg src="/vds/sshkeys/1.png" alt="PuTTY"/>
+![PuTTY](/vds/sshkeys/1.png)
 
 В PuTTY также имеется аналог `ssh-agent` из OpenSSH под названием Pageant, и чтобы его настроить, выполните следующие действия:
 

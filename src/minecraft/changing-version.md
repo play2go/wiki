@@ -6,7 +6,7 @@ order: 9
 
 1. Перейдите в панель управления сервером;
 2. Перейдите во вкладку "Startup";
-<AImg src="/minecraft/startup-version.png" alt="Startup"/>
+![Startup](/minecraft/startup-version.png)
 3. Вы должны увидеть Variables и ниже MINECRAFT VERSION, в той переменной нужно написать версию игры, например, 1.12.2;
 4. Затем удалите все файлы сервера, перейдите в Settings и переустановите сервер (кнопка Reinstall Server).
 

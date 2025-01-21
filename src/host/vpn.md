@@ -37,12 +37,12 @@ authors:
 1. Установите [V2rayNG](https://play.google.com/store/apps/details?id=com.v2ray.ang).
 2. Скопируйте выбранную вами ссылку VPN (`vmess://`, `vless://`, `ss://`), они будут выданы вам после покупки.
 3. Нажмите на кнопку Плюс **+** сверху.
-<AImg src="/host/vpn/v2rayplus.jpg"/>
+![](/host/vpn/v2rayplus.jpg)
 4. Нажмите на кнопку "Импорт из буфера обмена".
-<AImg src="/host/vpn/v2rayclip.jpg"/>
+![](/host/vpn/v2rayclip.jpg)
 5. Выберите профиль, нажав на него 1 раз.
 6. Запустите профиль, нажав кнопку Start **▷** снизу.
-<AImg src="/host/vpn/v2raystart.jpg"/>
+![](/host/vpn/v2raystart.jpg)
 
 Настройка завершена, когда захотите выключить VPN - нажмите кнопку остановки, она будет находиться в том же месте, где и Start.
 
@@ -51,8 +51,8 @@ authors:
 1. Установите [FoXray](https://apps.apple.com/us/app/foxray/id6448898396).
 2. Скопируйте выбранную вами ссылку VPN (`vmess://`, `vless://`, `ss://`), они будут выданы вам после покупки.
 3. Нажмите на кнопку "Вставить профиль из буфера обмена".
-<AImg src="/host/vpn/foxrayclip.jpg"/>
+![](/host/vpn/foxrayclip.jpg)
 4. Запустите профиль, нажав кнопку Start.
-<AImg src="/host/vpn/foxraystart.jpg"/>
+![](/host/vpn/foxraystart.jpg)
 
 Настройка завершена, когда захотите выключить VPN - нажмите кнопку остановки, она будет находиться в том же месте, где и Start.
