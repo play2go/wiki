@@ -62,12 +62,12 @@
   }
 
   &.tip {
-    border: 1px solid var(--vp-c-info-2);
+    border: 1px solid var(--vp-c-green-2);
     code, a {
-      color: var(--vp-c-info-1);
+      color: var(--vp-c-green-1);
     }
     &:before {
-      color: var(--vp-c-info-2);
+      color: var(--vp-c-green-2);
       content: '💡';
     }
   }
