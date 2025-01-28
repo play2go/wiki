@@ -19,7 +19,7 @@ hero:
       link: host
     - theme: brand icon main-site
       text: Основной сайт
-      link: https://p2g.one/wiki
+      link: https://new.play2go.cloud
     - theme: alt icon pencil
       text: Сделайте вклад в вики!
       link: https://github.com/play2go/wiki/blob/main/CONTRIBUTING.md
