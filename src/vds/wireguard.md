@@ -4,7 +4,7 @@ authors:
   - s3nkwr
 ---
 
-# Установка и настройка Wireguard
+# Установка и настройка WireGuard
 
 ## Что это? {#what}
 
@@ -37,8 +37,8 @@ WireGuard заблокирован в России. Чтобы он зарабо
 - Linux: на данный момент отсутствует
 :::
 
-1. Установите Wireguard: https://www.wireguard.com/install/
-2. Загрузите конфигурацию из `/root/client.conf`, либо сканируйте QR-код и импортируйте в клиент Wireguard.
+1. Установите WireGuard: https://www.wireguard.com/install/
+2. Загрузите конфигурацию из `/root/client.conf`, либо сканируйте QR-код и импортируйте в клиент WireGuard.
 3. Используйте VPN.
 
 ## Информация как использовать скрипт `wireguard.sh` {#using}
