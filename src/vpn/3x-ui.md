@@ -1,16 +1,16 @@
 ---
-order: 12
+order: 4
 authors:
   - envizar
 ---
 
-# Установка и настройка 3x-ui
+# 3x-ui
 
 ## Что это? {#what}
 
-[3x-ui](https://github.com/MHSanaei/3x-ui) - продвинутая веб-панель для управления Xray VPN, поддерживающая
+[3x-ui](https://github.com/MHSanaei/3x-ui) — продвинутая веб-панель для управления Xray VPN, поддерживающая
 множество протоколов (Vmess, VLESS, Trojan, ShadowSocks и Wireguard). В панели есть управление
-пользователями. Также существует аналог - [Marzban](marzban).
+пользователями. Также существует аналог — [Marzban](marzban).
 
 ## Установка и настройка {#setup}
 
