@@ -1,10 +1,10 @@
 ---
-order: 14
+order: 5
 authors:
   - s3nkwr
 ---
 
-# Установка и настройка OpenVPN
+# OpenVPN
 
 ## Что это? {#what}
 

@@ -1,10 +1,10 @@
 ---
-order: 13
+order: 6
 authors:
   - s3nkwr
 ---
 
-# Установка и настройка WireGuard
+# WireGuard
 
 ## Что это? {#what}
 
