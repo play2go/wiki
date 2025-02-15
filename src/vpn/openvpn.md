@@ -29,7 +29,7 @@ authors:
 ## Как использовать его?
 
 :::warning Внимание
-OpenVPN заблокирован в России, используйте [WireGuard с клиентом AmneziaWG](/vds/wireguard).
+OpenVPN заблокирован в России, используйте [WireGuard с клиентом AmneziaWG](/vpn/wireguard).
 :::
 
 1. Установите OpenVPN Connect:
