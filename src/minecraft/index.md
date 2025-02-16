@@ -1,7 +1,7 @@
 ---
 next:
   text: 'Список ядер'
-  link: './cores/list.md'
+  link: './list.md'
 ---
 
 # Minecraft
