@@ -1,7 +1,7 @@
 ---
 next:
-  text: 'Как подключиться к VDS по SSH'
-  link: './ssh.md'
+  text: 'Часто задаваемые вопросы'
+  link: './faq.md'
 ---
 
 # VDS/Dedicated
