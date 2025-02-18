@@ -22,6 +22,7 @@ authors:
 | Client 11 | Ryzen 9 5950X | `212.80.7.211` | `c11.play2go.cloud` |
 | Client 12 | Ryzen 9 5950X | `212.80.7.212` | `c12.play2go.cloud` |
 | Client 13 | Ryzen 9 7950X3D | `212.80.7.213` | `c13.play2go.cloud` |
+| Client 14 | Ryzen 9 7950X3D | `212.80.7.214` | `c14.play2go.cloud` |
 | MySQL | - | `212.80.7.35` | `mysql.play2go.cloud` |
 
 Узнать IP можно командой `nslookup ДОМЕН 8.8.8.8` в командной строке/терминале (если информация находящаяся здесь неактуальна)
