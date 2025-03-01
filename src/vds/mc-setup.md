@@ -137,7 +137,7 @@ mv graalvm-jdk-23* /opt/graalvm
 Ни в коем случае не запускайте сервер от `root`! Это огромная брешь в безопасности, лучше создать отдельного пользователя и запускать сервера от его имени.
 
 ```bash
-useradd -m -s /bin/bash minecraft
+adduser --disabled-password minecraft
 su - minecraft
 ```
 
