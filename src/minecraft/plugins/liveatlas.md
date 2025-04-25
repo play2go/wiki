@@ -27,7 +27,7 @@ LiveAtlas сделан на [Vue.js](https://github.com/vuejs/core) и [TypeScri
 
 1. Скачиваем архив с файлами LiveAtlas. [GitHub](https://github.com/JLyne/LiveAtlas/releases/latest)
 2. Распаковываем его в папку `~/plugins/Squaremap/web` вашего сервера;
-3. Заходим в конфиг Dynmap `~/plugins/Squaremap/config.yml`;
+3. Заходим в конфиг Squaremap `~/plugins/Squaremap/config.yml`;
 4. Находим поле `auto-update: true` и ставим его на false `auto-update: false`;
 5. Теперь надо изменить `index.html` LiveAtlas'а, чтобы он понял как работать с Squaremap: `~/plugins/Squaremap/web/index.html`;
 6. Внутрь `<script> window.liveAtlasConfig` добавляем:
