@@ -23,6 +23,6 @@
     "fixandcommit": "markdownlint --fix *.md && markdownlint --fix src/ && git commit -am 'Автоматическая обработка линтером (команда npm run fixandcommit)'"
   },
   "dependencies": {
-    "@vueuse/core": "12.7.0"
+    "@vueuse/core": "13.1.0"
   }
 }
