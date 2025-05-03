@@ -44,10 +44,10 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-c-default-1: #3c434b;
-  --vp-c-default-2: #2e333b;
-  --vp-c-default-3: #24272d;
-  --vp-c-default-soft: #48545f29;
+  --vp-c-default-1: #9ca3af;
+  --vp-c-default-2: #4b5563;
+  --vp-c-default-3: #1f2937;
+  --vp-c-default-soft: rgba(255, 255, 255, 0.05);
 
   --vp-c-brand-1: #ff546d;
   --vp-c-brand-2: #dd485e;
@@ -59,15 +59,15 @@
   --vp-c-tip-3: var(--vp-c-brand-3);
   --vp-c-tip-soft: var(--vp-c-brand-soft);
 
-  --vp-c-warning-1: var(--vp-c-yellow-1);
-  --vp-c-warning-2: var(--vp-c-yellow-2);
-  --vp-c-warning-3: var(--vp-c-yellow-3);
-  --vp-c-warning-soft: var(--vp-c-yellow-soft);
+  --vp-c-warning-1: #fbbf24;
+  --vp-c-warning-2: #f59e0b;
+  --vp-c-warning-3: #d97706;
+  --vp-c-warning-soft: rgba(251, 191, 36, 0.1);
 
-  --vp-c-danger-1: var(--vp-c-red-1);
-  --vp-c-danger-2: var(--vp-c-red-2);
-  --vp-c-danger-3: var(--vp-c-red-3);
-  --vp-c-danger-soft: var(--vp-c-red-soft);
+  --vp-c-danger-1: #ef4444;
+  --vp-c-danger-2: #dc2626;
+  --vp-c-danger-3: #b91c1c;
+  --vp-c-danger-soft: rgba(239, 68, 68, 0.1);
 
   --vp-c-info-1: var(--vp-c-indigo-1);
   --vp-c-info-2: var(--vp-c-indigo-2);
@@ -94,9 +94,9 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-c-bg: #18181B;
-  --vp-c-bg-alt: #141417;
-  --vp-c-bg-elv: #1B1B1E;
+  --vp-c-bg: #000000;
+  --vp-c-bg-alt: rgba(255,255,255,0.03);
+  --vp-c-bg-elv: rgba(255, 255, 255, 0.06);
   --vp-c-bg-soft: rgba(75, 75, 85, 0.15);
 }
 
@@ -131,7 +131,20 @@
  * Component: Algolia
  * -------------------------------------------------------------------------- */
 
-.DocSearch {
+
+ .VPSidebar::-webkit-scrollbar {
+  display: none;
+}
+
+
+.vp-adaptive-theme {
+  &[class^="language-"],
+  &[class*=" language-"] {
+    border: 1px solid rgba($color: white, $alpha: 0.2);
+  }
+}
+
+ .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
@@ -141,4 +154,10 @@ img {
 
 h1>.header-anchor {
   display: none;
+}
+
+.curtain {
+  background-color: transparent !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }

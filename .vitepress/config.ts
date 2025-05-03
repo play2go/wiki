@@ -82,7 +82,7 @@ export default defineConfig({
       copyright:
         "&copy; 2023 - " +
         new Date().getFullYear() +
-        '. <a href="https://play2go.cloud">PLAY2GO LLC</a>',
+        '. <a href="https://play2go.cloud">PLAY2GO INTERNATIONAL LIMITED</a>',
     },
 
     notFound: {
