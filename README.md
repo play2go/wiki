@@ -28,6 +28,4 @@ npm i && npm run build
 
 2. [envizar](https://github.com/envizar) (тех.часть)
 
-3. [s3nkwr](https://github.com/s3nkwr) (поддержка хостинга, статьи)
-
-4. [Sharikfi](https://github.com/Sharikfi) (поддержка хостинга, статьи + тех.часть)
+3. [Sharikfi](https://github.com/Sharikfi) (поддержка хостинга, статьи + тех.часть)
