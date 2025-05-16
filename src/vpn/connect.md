@@ -2,7 +2,7 @@
 order: 1
 authors:
   - FlashYan123
-  - s3nkwr
+  - c1oudychan
 ---
 
 # Подключение к VPN
