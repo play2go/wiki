@@ -1,6 +1,6 @@
 ---
 authors:
-  - Mypchikov
+  - imMurchikov
 ---
 
 # Chatty V3

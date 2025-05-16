@@ -1,6 +1,6 @@
 ---
 authors: 
-  - s3nkwr
+  - c1oudychan
   - Timtaran
 ---
 
@@ -86,19 +86,19 @@ Database:
 
 ## Команды {#commands}
 
-| Имя | Замены | Описание |
-| ----------- | ----------- | ----------- |
-| plan servers | - | Количество серверов в базе данных |
-| plan search | name/uuid | Поиск игрока |
-| plan ingame | name/uuid | Показать информацию об игроке в игре |
-| plan json | name/uuid | Показать данные об игроке в виде JSON |
-| plan register | --code (код) | Регистрация веб-пользователя |
-| plan unregister | username | Удалить веб-пользователя |  
-| plan logout | username | Выкинуть (разлогинить) пользователя из веб-панели |
-| plan users | - | Показать всех пользователей веб-панели |
-| plan info | - | Информация о плагине |
-| plan reload | - | Перезагрузить плагин |
-| plan disable | feature | Отключить плагин или какую-либо функцию |  
-| plan db | subcommand | Управление базой данных |
-| plan export | json/html | Экспорт json или html данных |
-| plan import | json/html | Импорт json или html данных |
+| Имя             | Замены       | Описание                                          |
+| --------------- | ------------ | ------------------------------------------------- |
+| plan servers    | -            | Количество серверов в базе данных                 |
+| plan search     | name/uuid    | Поиск игрока                                      |
+| plan ingame     | name/uuid    | Показать информацию об игроке в игре              |
+| plan json       | name/uuid    | Показать данные об игроке в виде JSON             |
+| plan register   | --code (код) | Регистрация веб-пользователя                      |
+| plan unregister | username     | Удалить веб-пользователя                          |
+| plan logout     | username     | Выкинуть (разлогинить) пользователя из веб-панели |
+| plan users      | -            | Показать всех пользователей веб-панели            |
+| plan info       | -            | Информация о плагине                              |
+| plan reload     | -            | Перезагрузить плагин                              |
+| plan disable    | feature      | Отключить плагин или какую-либо функцию           |
+| plan db         | subcommand   | Управление базой данных                           |
+| plan export     | json/html    | Экспорт json или html данных                      |
+| plan import     | json/html    | Импорт json или html данных                       |

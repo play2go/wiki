@@ -1,7 +1,7 @@
 ---
 order: 6
 authors:
-  - s3nkwr
+  - c1oudychan
 ---
 
 # WireGuard

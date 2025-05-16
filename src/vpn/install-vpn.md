@@ -1,7 +1,7 @@
 ---
 order: 2
 authors:
-  - s3nkwr
+  - c1oudychan
 ---
 
 # VPN: OpenVPN/WireGuard

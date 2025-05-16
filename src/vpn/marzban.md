@@ -1,7 +1,7 @@
 ---
 order: 3
 authors:
-  - s3nkwr
+  - c1oudychan
 ---
 
 # Marzban
