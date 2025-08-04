@@ -9,7 +9,7 @@
     "unocss": "66.1.2",
     "vitepress": "1.6.3",
     "vitepress-plugin-tabs": "0.7.1",
-    "vitepress-sidebar": "1.31.1",
+    "vitepress-sidebar": "1.33.0",
     "vue": "3.5.15",
     "markdownlint-cli": "0.45.0"
   },
