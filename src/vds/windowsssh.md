@@ -2,6 +2,7 @@
 order: 10
 authors:
   - maksorr2
+  - Sharikfi
 ---
 
 # Установка OpenSSH (Windows)
@@ -13,7 +14,7 @@ authors:
 :::
 
 :::warning Удаление OpenSSH
-Если вы хотите удалить `OpenSSH`, то введите в `PowerShell` данну команду:
+Если вы хотите удалить `OpenSSH`, введите в `PowerShell` следующие команды:
 
 ```powershell
 # Для удаления OpenSSH Server
@@ -26,10 +27,10 @@ Remove-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
 Remove-Item -Recurse -Force "C:\ProgramData\ssh"
 ```
 
-После данных комманд перезагрузите вашу машину.
+После выполнения команд перезагрузите систему.
 :::
 
-1. Откройте `PowerShell` от имени Администратора. Введите следующие команды:
+1. Откройте `PowerShell` от имени Администратора и выполните команды:
 
 ```powershell
 # Проверка того, что OpenSSH Server не установлен
@@ -66,11 +67,11 @@ if (!(Get-NetFirewallRule -Name "OpenSSH-Server-In-TCP" -ErrorAction SilentlyCon
 Метод ниже — резервный и менее устойчивый, используйте **только в случае ошибок**.
 :::
 
-1. Установите `OpenSSH Server` с [Github](https://github.com/PowerShell/Win32-OpenSSH/releases). (желательно скачать zip)
+1. Скачайте `OpenSSH Server` с [Github](https://github.com/PowerShell/Win32-OpenSSH/releases) (рекомендуется скачать ZIP-архив).
 
-2. Распокуйте zip архив, скопируйте его содержимое по пути `C:\Program Files`
+2. Распакуйте архив и скопируйте содержимое в `C:\Program Files\OpenSSH`
 
-3. Добавьте ssh в PATH:
+3. Добавьте путь в системную переменную PATH:
 
 ```powershell
 $NewPath = "C:\Program Files\OpenSSH"  # ← Укажите нужный путь
