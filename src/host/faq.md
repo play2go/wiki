@@ -42,4 +42,4 @@ authors:
 
 ## У второго пользователя в панели появляется ошибка `An error was encountered by the application while rendering this view. Try refreshing the page.` {#scnd-usr-err}
 
-Вам нужно передобавить пользователя в доступ к панели. Иначе обратитесь в поддержку.
+Вам нужно передобавить пользователя в доступ к панели.
