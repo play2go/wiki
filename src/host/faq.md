@@ -39,3 +39,7 @@ authors:
 ## Если украли аккаунт/забыл пароль {#lost-account}
 
 Также обратитесь в поддержку через тикеты.
+
+## У второго пользователя в панели появляется `ошибка An error was encountered by the application while rendering this view. Try refreshing the page.`
+
+Вам нужно передобавить пользователя в доступ к панели. Иначе обратитесь в поддержку.
