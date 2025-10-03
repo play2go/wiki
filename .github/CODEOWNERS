@@ -3,19 +3,19 @@
 # Подробнее можно прочитать на https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 
 # Технические файлы
-/.vitepress/ @SimonSays2310 @envizar
-/src/index.md @SimonSays2310 @envizar
+/.vitepress/ @envizar
+/src/index.md @envizar
 uno.config.ts @envizar
-/.github/ @SimonSays2310
-.markdownlint.yml @SimonSays2310
-.gitattributes @SimonSays2310
-.gitignore @SimonSays2310
-CONTRIBUTING.md @SimonSays2310
-LICENSE.md @SimonSays2310
-README.md @SimonSays2310
+#/.github/ @SimonSays2310
+#.markdownlint.yml @SimonSays2310
+#.gitattributes @SimonSays2310
+#.gitignore @SimonSays2310
+#CONTRIBUTING.md @SimonSays2310
+#LICENSE.md @SimonSays2310
+#README.md @SimonSays2310
 
 # Коллабораторам: не стесняйтесь добавлять тут свой юзернейм, если хотите автоматически быть в ревьюверах тех или иных статей
-/src/host/ @SimonSays2310 @Sharikfi
-/src/minecraft/ @SimonSays2310
-/src/public/ @SimonSays2310
-/src/vds/ @SimonSays2310 @Sharikfi
+/src/host/ @Sharikfi
+#/src/minecraft/ @SimonSays2310
+#/src/public/ @SimonSays2310
+/src/vds/ @Sharikfi
