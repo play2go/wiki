@@ -10,14 +10,10 @@ COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 RUN bun run build
 
-FROM base AS production
-COPY --from=deps /app/node_modules ./node_modules
-COPY --from=build /app/.vitepress/dist ./.vitepress/dist
-COPY --from=build /app/.vitepress/config.ts ./.vitepress/config.ts
-COPY --from=build /app/src ./src
-COPY package.json ./
-COPY uno.config.ts ./
+FROM oven/bun:1.2.5 AS production
+COPY --from=build /app/.vitepress/dist ./dist
+RUN bun add -g serve
 EXPOSE 4173
 WORKDIR /app
-CMD ["sh", "-c", "bun run preview --host 0.0.0.0"]
+CMD ["sh", "-c", "serve dist -l 4173 --single"]
 
