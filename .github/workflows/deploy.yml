@@ -17,6 +17,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           port: ${{ secrets.SERVER_PORT || 22 }}
+          fingerprint: ${{ secrets.SERVER_SSH_FINGERPRINT }}
           script: |
             set -e
             cd /root/wiki
