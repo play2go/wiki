@@ -29,16 +29,22 @@ jobs:
             BUN_CMD="bun"
           fi
 
-          ssh -v -T -o StrictHostKeyChecking=no ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} << 'EOF'
+          ssh -v -T -o StrictHostKeyChecking=no ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} << EOF
           set -x
+          export PATH="$HOME/.bun/bin:$PATH"
+          if [ -f ~/.bun/bin/bun ]; then
+            BUN_CMD="$HOME/.bun/bin/bun"
+          else
+            BUN_CMD="bun"
+          fi
           cd /root/wiki
           git pull
-          $BUN_CMD install
-          $BUN_CMD run build
+          \$BUN_CMD install
+          \$BUN_CMD run build
           pkill -f "vitepress preview" || true
           sleep 2
           cd /root/wiki
-          nohup $BUN_CMD run preview --host 0.0.0.0 > /tmp/wiki.log 2>&1 < /dev/null &
+          nohup \$BUN_CMD run preview --host 0.0.0.0 > /tmp/wiki.log 2>&1 < /dev/null &
           disown
           sleep 3
           echo "Process started:"
