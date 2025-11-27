@@ -14,5 +14,5 @@ FROM base AS production
 COPY --from=build /app/.vitepress/dist ./dist
 EXPOSE 4173
 WORKDIR /app
-CMD ["bun run preview --host 0.0.0.0"]
+CMD ["sh", "-c", "bunx serve dist -l 4173 --single"]
 
