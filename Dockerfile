@@ -12,7 +12,9 @@ RUN bun run build
 
 FROM base AS production
 COPY --from=deps /app/node_modules ./node_modules
-COPY --from=build /app/.vitepress ./.vitepress
+COPY --from=build /app/.vitepress/dist ./.vitepress/dist
+COPY --from=build /app/.vitepress/config.ts ./.vitepress/config.ts
+COPY --from=build /app/src ./src
 COPY package.json ./
 COPY uno.config.ts ./
 EXPOSE 4173
