@@ -8,47 +8,40 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
-      - name: Deploy to server
-        uses: appleboy/ssh-action@v1.0.3
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.7.0
         with:
-          host: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USER }}
-          key: ${{ secrets.SERVER_SSH_KEY }}
-          port: ${{ secrets.SERVER_PORT || 22 }}
-          script_stop: false
-          script: |
-            export PATH="$HOME/.bun/bin:$PATH"
-            if [ -f ~/.bun/bin/bun ]; then
-              BUN_CMD="$HOME/.bun/bin/bun"
-            else
-              BUN_CMD="bun"
-            fi
-            cd /root/wiki
-            git pull
-            $BUN_CMD install
-            $BUN_CMD run build
-            if command -v pm2 &> /dev/null || [ -f ~/.bun/bin/pm2 ]; then
-              PM2_CMD="pm2"
-              if [ -f ~/.bun/bin/pm2 ]; then
-                PM2_CMD="$HOME/.bun/bin/pm2"
-              fi
-              if $PM2_CMD list 2>/dev/null | grep -q wiki; then
-                $PM2_CMD restart wiki
-              else
-                cd /root/wiki
-                $PM2_CMD start "$BUN_CMD run preview --host 0.0.0.0" --name wiki
-              fi
-            else
-              pkill -f "vitepress preview" || true
-              sleep 2
-              cd /root/wiki
-              if command -v screen &> /dev/null; then
-                screen -dmS wiki bash -c "$BUN_CMD run preview --host 0.0.0.0"
-              else
-                nohup $BUN_CMD run preview --host 0.0.0.0 > /tmp/wiki.log 2>&1 < /dev/null &
-              fi
-              sleep 3
-            fi
+          ssh-private-key: ${{ secrets.SERVER_SSH_KEY }}
+
+      - name: Add GitHub to known_hosts
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -t ed25519 ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Deploy to Server
+        run: |
+          export PATH="$HOME/.bun/bin:$PATH"
+          if [ -f ~/.bun/bin/bun ]; then
+            BUN_CMD="$HOME/.bun/bin/bun"
+          else
+            BUN_CMD="bun"
+          fi
+
+          ssh -v -T -o StrictHostKeyChecking=no ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} << 'EOF'
+          set -x
+          cd /root/wiki
+          git pull
+          $BUN_CMD install
+          $BUN_CMD run build
+          pkill -f "vitepress preview" || true
+          sleep 2
+          cd /root/wiki
+          nohup $BUN_CMD run preview --host 0.0.0.0 > /tmp/wiki.log 2>&1 < /dev/null &
+          disown
+          sleep 3
+          echo "Process started:"
+          ps aux | grep "vitepress preview" | grep -v grep || echo "Process not found"
+          EOF
 
