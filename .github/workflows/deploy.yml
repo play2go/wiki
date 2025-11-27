@@ -29,9 +29,22 @@ jobs:
             git pull
             $BUN_CMD install
             $BUN_CMD run build
-            pkill -f "vitepress preview" || true
-            sleep 2
-            cd /root/wiki
-            setsid nohup $BUN_CMD run preview --host 0.0.0.0 > /tmp/wiki.log 2>&1 < /dev/null &
-            sleep 1
+            if command -v pm2 &> /dev/null || [ -f ~/.bun/bin/pm2 ]; then
+              PM2_CMD="pm2"
+              if [ -f ~/.bun/bin/pm2 ]; then
+                PM2_CMD="$HOME/.bun/bin/pm2"
+              fi
+              if $PM2_CMD list | grep -q wiki; then
+                $PM2_CMD restart wiki
+              else
+                cd /root/wiki
+                $PM2_CMD start "$BUN_CMD run preview --host 0.0.0.0" --name wiki
+              fi
+            else
+              pkill -f "vitepress preview" || true
+              sleep 2
+              cd /root/wiki
+              nohup $BUN_CMD run preview --host 0.0.0.0 > /tmp/wiki.log 2>&1 < /dev/null &
+              disown
+            fi
 
