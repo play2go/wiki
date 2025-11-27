@@ -15,7 +15,7 @@
         "unocss": "66.5.3",
         "vitepress": "1.6.4",
         "vitepress-plugin-tabs": "0.7.3",
-        "vitepress-sidebar": "1.31.1",
+        "vitepress-sidebar": "1.33.0",
         "vue": "3.5.22",
       },
     },
@@ -755,7 +755,7 @@
 
     "vitepress-plugin-tabs": ["vitepress-plugin-tabs@0.7.3", "", { "peerDependencies": { "vitepress": "^1.0.0", "vue": "^3.5.0" } }, "sha512-CkUz49UrTLcVOszuiHIA7ZBvfsg9RluRkFjRG1KvCg/NwuOTLZwcBRv7vBB3vMlDp0bWXIFOIwdI7bE93cV3Hw=="],
 
-    "vitepress-sidebar": ["vitepress-sidebar@1.31.1", "", { "dependencies": { "glob": "10.4.5", "gray-matter": "4.0.3", "qsu": "^1.10.0" } }, "sha512-Hx10z5le87jIIXVfKq4AtRrVqVJJ/1cQsZhmwT+ghVR/j4Yor9FjNMszyigJ54ktrEtoxSLO6C9tvuLauT4lZA=="],
+    "vitepress-sidebar": ["vitepress-sidebar@1.33.0", "", { "dependencies": { "glob": "10.4.5", "gray-matter": "4.0.3", "qsu": "^1.10.1" } }, "sha512-+z45vGG6OQRKNU7OMhmrp5y9dk9Y8loFZGE2LwzqloqA4p+ECP3/Ti6qrS8kB3N8Rol4v0Nf8HSnsgZEDU4HXQ=="],
 
     "vue": ["vue@3.5.22", "", { "dependencies": { "@vue/compiler-dom": "3.5.22", "@vue/compiler-sfc": "3.5.22", "@vue/runtime-dom": "3.5.22", "@vue/server-renderer": "3.5.22", "@vue/shared": "3.5.22" }, "peerDependencies": { "typescript": "*" }, "optionalPeers": ["typescript"] }, "sha512-toaZjQ3a/G/mYaLSbV+QsQhIdMo9x5rrqIpYRObsJ6T/J+RyCSFwN2LHNVH9v8uIcljDNa3QzPVdv3Y6b9hAJQ=="],
 
