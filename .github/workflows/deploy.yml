@@ -21,6 +21,11 @@ jobs:
             set -e
             cd /root/wiki
             git pull
-            docker compose build
-            docker compose up -d --remove-orphans
+            bun install
+            bun run build
+            pkill -f "vitepress preview" || true
+            sleep 2
+            cd /root/wiki
+            bun run preview --host 0.0.0.0 > /tmp/wiki.log 2>&1 &
+            echo $! > /tmp/wiki.pid
 
