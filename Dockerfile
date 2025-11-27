@@ -20,4 +20,3 @@ COPY --from=build /app/uno.config.ts ./
 EXPOSE 4173
 WORKDIR /app
 CMD ["sh", "-c", "bun run preview --host 0.0.0.0"]
-
