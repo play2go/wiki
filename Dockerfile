@@ -11,13 +11,8 @@ COPY . .
 RUN bun run build
 
 FROM base AS production
-COPY --from=deps /app/node_modules ./node_modules
-COPY --from=build /app/.vitepress/dist ./.vitepress/dist
-COPY --from=build /app/.vitepress/config.ts ./.vitepress/config.ts
-COPY --from=build /app/src ./src
-COPY package.json ./
-COPY uno.config.ts ./
+COPY --from=build /app/.vitepress/dist ./dist
 EXPOSE 4173
 WORKDIR /app
-CMD ["sh", "-c", "bun run preview --host 0.0.0.0"]
+CMD ["bun", "run preview --host 0.0.0.0"]
 
