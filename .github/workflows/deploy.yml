@@ -32,5 +32,6 @@ jobs:
             pkill -f "vitepress preview" || true
             sleep 2
             cd /root/wiki
-            nohup $BUN_CMD run preview --host 0.0.0.0 > /tmp/wiki.log 2>&1 &
+            setsid nohup $BUN_CMD run preview --host 0.0.0.0 > /tmp/wiki.log 2>&1 < /dev/null &
+            sleep 1
 
