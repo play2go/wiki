@@ -32,11 +32,19 @@ jobs:
           ssh -v -T -o StrictHostKeyChecking=no ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} << EOF
           set -x
           export PATH="$HOME/.bun/bin:$PATH"
-          if [ -f ~/.bun/bin/bun ]; then
-            BUN_CMD="$HOME/.bun/bin/bun"
-          else
+          if command -v bun &> /dev/null; then
             BUN_CMD="bun"
+          elif [ -f ~/.bun/bin/bun ]; then
+            BUN_CMD="$HOME/.bun/bin/bun"
+          elif [ -f /root/.bun/bin/bun ]; then
+            BUN_CMD="/root/.bun/bin/bun"
+          else
+            echo "Bun not found, trying to install..."
+            curl -fsSL https://bun.sh/install | bash
+            export PATH="$HOME/.bun/bin:$PATH"
+            BUN_CMD="$HOME/.bun/bin/bun"
           fi
+          echo "Using bun: \$BUN_CMD"
           cd /root/wiki
           git pull
           \$BUN_CMD install
