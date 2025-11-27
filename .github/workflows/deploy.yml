@@ -19,13 +19,18 @@ jobs:
           port: ${{ secrets.SERVER_PORT || 22 }}
           script: |
             set -e
+            export PATH="$HOME/.bun/bin:$PATH"
+            if [ -f ~/.bun/bin/bun ]; then
+              BUN_CMD="$HOME/.bun/bin/bun"
+            else
+              BUN_CMD="bun"
+            fi
             cd /root/wiki
             git pull
-            bun install
-            bun run build
+            $BUN_CMD install
+            $BUN_CMD run build
             pkill -f "vitepress preview" || true
             sleep 2
             cd /root/wiki
-            bun run preview --host 0.0.0.0 > /tmp/wiki.log 2>&1 &
-            echo $! > /tmp/wiki.pid
+            nohup $BUN_CMD run preview --host 0.0.0.0 > /tmp/wiki.log 2>&1 &
 
