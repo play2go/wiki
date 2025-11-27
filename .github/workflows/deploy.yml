@@ -32,19 +32,37 @@ jobs:
           ssh -v -T -o StrictHostKeyChecking=no ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} << EOF
           set -x
           export PATH="$HOME/.bun/bin:$PATH"
-          if command -v bun &> /dev/null; then
+          # Check various possible locations for bun
+          if which bun 2>/dev/null; then
             BUN_CMD="bun"
           elif [ -f ~/.bun/bin/bun ]; then
             BUN_CMD="$HOME/.bun/bin/bun"
           elif [ -f /root/.bun/bin/bun ]; then
             BUN_CMD="/root/.bun/bin/bun"
+          elif [ -f /usr/local/bin/bun ]; then
+            BUN_CMD="/usr/local/bin/bun"
           else
-            echo "Bun not found, trying to install..."
-            curl -fsSL https://bun.sh/install | bash
-            export PATH="$HOME/.bun/bin:$PATH"
-            BUN_CMD="$HOME/.bun/bin/bun"
+            echo "Bun not found, checking if it was installed before..."
+            if [ -d ~/.bun ]; then
+              echo "Bun directory exists, trying to find executable..."
+              find ~/.bun -name "bun" -type f 2>/dev/null | head -1
+              BUN_CMD="\$(find ~/.bun -name "bun" -type f 2>/dev/null | head -1)"
+              if [ -z "\$BUN_CMD" ]; then
+                echo "Reinstalling bun..."
+                curl -fsSL https://bun.sh/install | bash
+                export PATH="\$HOME/.bun/bin:\$PATH"
+                BUN_CMD="\$HOME/.bun/bin/bun"
+              fi
+            else
+              echo "Installing bun..."
+              curl -fsSL https://bun.sh/install | bash
+              export PATH="\$HOME/.bun/bin:\$PATH"
+              BUN_CMD="\$HOME/.bun/bin/bun"
+            fi
           fi
           echo "Using bun: \$BUN_CMD"
+          which bun || echo "bun not in PATH"
+          ls -la ~/.bun/bin/ 2>/dev/null || echo "bun directory not found"
           cd /root/wiki
           git pull
           \$BUN_CMD install
