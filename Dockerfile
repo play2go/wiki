@@ -1,0 +1,19 @@
+FROM oven/bun:1.2.5 AS base
+WORKDIR /app
+
+FROM base AS deps
+COPY package.json bun.lockb* ./
+RUN bun install --frozen-lockfile
+
+FROM base AS build
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
+RUN bun run build
+
+FROM base AS production
+COPY --from=deps /app/node_modules ./node_modules
+COPY --from=build /app/.vitepress/dist ./.vitepress/dist
+COPY package.json ./
+EXPOSE 4173
+CMD ["sh", "-c", "bun run preview --host 0.0.0.0"]
+

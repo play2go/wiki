@@ -5,13 +5,13 @@
 ## Запуск
 
 ```sh
-npm i && npm run dev
+bun i && bun run dev
 ```
 
 ## Сборка
 
 ```sh
-npm i && npm run build
+bun i && bun run build
 ```
 
 ## Написание своих статей
